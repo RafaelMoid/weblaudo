@@ -18,19 +18,21 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div>
+        <nav class="nav-container">
+            <div class="grad">
                 <a href="">Acesso ao sistema</a>
             </div>
-            <ul>
-                <li><img alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/weblaudo-logo.png"/></li>
-                <li>Inicio</li>
-                <li>Quem somos</li>
-                <li>Equipe</li>
-                <li>Serviços</li>
-                <li>Banco de casos</li>
-                <li>Contato</li>
-                <li><button>Trabalhe conosco</button></li>
-            </ul>
+            <div class="nav-ul-container">
+                <ul class="nav-ul">
+                    <li><img class="logo-weblaudo" alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/weblaudo-logo.png"/></li>
+                    <li>Inicio</li>
+                    <li>Quem somos</li>
+                    <li>Equipe</li>
+                    <li>Serviços</li>
+                    <li>Banco de casos</li>
+                    <li>Contato</li>
+                    <li><button class="btn-work-with-us">Trabalhe conosco</button></li>
+                </ul>
+            </div>
         </nav>
     </header>

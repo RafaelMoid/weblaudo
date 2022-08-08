@@ -76,6 +76,84 @@ h4 {
   font-size: 1.5rem;
 }
 
+.nav-container {
+  z-index: 999;
+}
+
+.grad {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 2rem;
+  background-image: linear-gradient(to right, #182E5F, #3BA6DE);
+}
+
+.grad a {
+  margin-right: 3rem;
+  display: flex;
+  color: #F2FEFC;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.nav-ul {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul li {
+  color: #16477F;
+  text-transform: uppercase;
+}
+
+.nav-ul .logo-weblaudo {
+  height: 7rem;
+  width: 10rem;
+}
+
+.btn-work-with-us {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  background-color: #16477F;
+  color: #F2FEFC;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  outline: 0cm;
+  border: transparent;
+  margin: 0 4rem 0 4rem;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a, p, h5, h6, li {
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
 footer {
   display: flex;
   flex-direction: column;

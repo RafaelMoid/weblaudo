@@ -1,0 +1,56 @@
+@import "designSystem";
+
+.nav-container {
+  z-index: 999;
+}
+
+.grad {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 2rem;
+  background-image: linear-gradient(to right, $azul-escuro, $azul-medio);
+  a {
+    margin-right: 3rem;
+    display: flex;
+    color: $branco;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+}
+
+.nav-ul {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  li {
+    color: $azul-medio2;
+    text-transform: uppercase;    
+  }
+
+  .logo-weblaudo {
+    height: 7rem;
+    width: 10rem;
+  }
+  
+}
+
+.btn-work-with-us {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  background-color: $azul-medio2;
+  color: $branco;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  outline: 0cm;
+  border: transparent;
+  margin:0 4rem 0 4rem;
+}
+
