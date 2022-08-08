@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a, p, h5, h6, li {
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p, footer h1, footer h2, footer h3, footer h4, footer li {
+  color: #F2FEFC;
+}
+
+footer a {
+  color: #3BA6DE;
+}
+
+footer .li-title {
+  color: #3BA6DE;
+}
+
+footer .footer-section-1 {
+  display: flex;
+}
+
+footer .footer-section-1 .linha-box-1 {
+  height: 9rem;
+  margin: 0 1rem 0 1rem;
+  border-left: solid 0.3rem #182E5F;
+}
+
+footer .footer-section-1 .linha-box-2 {
+  height: 5rem;
+  margin: 0 1.5rem 0 1rem;
+  border-left: solid 0.3rem #3BA6DE;
+}
+
+footer .footer-section-1 .title-contato {
+  margin-bottom: 1rem;
+}
+
+footer .footer-section-1 .footer-sub-section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #3BA6DE;
+  width: 50%;
+  height: 15rem;
+  line-height: 1.6;
+}
+
+footer .footer-section-1 .footer-sub-section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #53CBF4;
+  width: 50%;
+  height: 15rem;
+}
+
+footer .footer-section-1 .footer-sub-section-2 img {
+  color: white;
+  height: 5rem;
+  width: 5rem;
+}
+
+footer .footer-section-2 {
+  padding: 6rem 20% 4rem 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #16477F;
+  line-height: 2;
+}
+
+footer .footer-section-2 .sec-2-sec-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .footer-section-2 .sec-2-sec-1 ul {
+  margin: 0 2rem 0 0;
+}
+
+footer .footer-section-2 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .footer-section-2 .social-icons {
+  display: flex;
+  justify-content: left;
+}
+
+footer .footer-section-2 .social-icons a {
+  width: 2rem;
+  height: 2rem;
+}
+
+footer .footer-section-2 .sec-2-sec-2 a {
+  text-decoration: none;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .fa {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .fa-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 2.2rem;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .fa-facebook {
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #16477F;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .fa-twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 2.2rem;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .fa:hover {
+  opacity: 0.9;
+}
+
+footer .footer-section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #182E5F;
+  height: 3rem;
+}
+
+footer .footer-section-3 img {
+  margin-left: 0.8rem;
+  height: 1.5rem;
+}
+
+footer .footer-section-3 p {
+  display: flex;
+  align-items: center;
+  color: #F2FEFC;
+  padding-left: 2rem;
+}
+
+footer .footer-section-3 .logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+}

@@ -1,0 +1,171 @@
+@import "designSystem";
+
+footer {
+
+    display: flex;
+    flex-direction: column ;
+
+    p,h1,h2,h3,h4,li {
+        color: $branco;
+    }
+
+    a{
+        color: $azul-medio;
+    }
+
+    .li-title{
+        color: $azul-medio;
+    }
+
+    .footer-section-1{
+        display: flex;
+        
+        .linha-box-1{       
+            height: 9rem;     
+            margin: 0 1rem 0 1rem;
+            border-left: solid 0.3rem $azul-escuro;
+        }
+        
+        .linha-box-2{       
+            height: 5rem;     
+            margin: 0 1.5rem 0 1rem;
+            border-left: solid 0.3rem $azul-medio;
+        }
+
+        .title-contato {
+            margin-bottom: 1rem;
+        }
+
+        .footer-sub-section-1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: $azul-medio;
+            width: 50%;
+            height: 15rem;
+            line-height: 1.6;
+        }
+        .footer-sub-section-2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: $azul-claro;
+            width: 50%;
+            height: 15rem;
+
+            img{
+                color: white;
+                height: 5rem;
+                width: 5rem;;
+            }
+        }
+    }
+    .footer-section-2{
+        padding: 6rem 20% 4rem 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $azul-medio2;
+        line-height: 2;
+
+        .sec-2-sec-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+                  
+        ul {
+            margin: 0 2rem 0 0;
+        }
+
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: left;
+            a {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+
+        .sec-2-sec-2 {
+
+            a {
+                text-decoration: none;
+            }
+
+            .fa {  
+              text-align: center;   
+                font-size: 30px; 
+              }
+                 
+            .fa-instagram {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $icons-white;
+                font-size: 2.2rem;
+            }
+
+            .fa-facebook {
+                background-color: $icons-white ;
+                border-radius: 0.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $azul-medio2;
+                margin: 0 0.5rem 0 0.5rem;            
+            }
+                         
+            .fa-twitter {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $icons-white;
+                font-size: 2.2rem;
+            
+            }
+
+            .fa:hover {  
+                opacity: 0.9;  
+            }  
+
+        }
+
+    }
+    
+    .footer-section-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: $azul-escuro;
+        height: 3rem;
+
+        img {
+            margin-left: 0.8rem;
+            height: 1.5rem;
+        }
+
+        p{
+            display: flex;
+            align-items: center;
+            color: $branco;
+            padding-left: 2rem;
+        }
+        
+        .logo-box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 2rem;
+        }
+    }
+}
