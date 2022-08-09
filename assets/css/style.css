@@ -130,13 +130,13 @@ h4 {
 }
 
 .btn-work-with-us {
-  width: 12rem;
-  height: 3rem;
+  width: 12.5rem;
+  height: 2.75rem;
   border-radius: 3rem;
   background-color: #16477F;
   color: #F2FEFC;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: bold;
   outline: 0cm;
   border: transparent;
@@ -297,7 +297,7 @@ h4 {
   text-align: center;
   justify-content: center;
   background-color: #FFFFFF;
-  height: 38rem;
+  height: 40rem;
 }
 
 .index-sec-3 .sec-3-banner-container {
@@ -314,7 +314,7 @@ h4 {
 
 .index-sec-3 .sec-3-content {
   width: 50%;
-  margin: 4rem 5% 0 5%;
+  margin: 4.7rem 5% 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
