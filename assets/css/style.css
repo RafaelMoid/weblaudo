@@ -53,7 +53,7 @@ table {
 }
 
 a, p, h1, h2, h3, h4, h5, h6, li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a, p, h5, h6, li {
@@ -76,7 +76,13 @@ h4 {
   font-size: 1.5rem;
 }
 
+.btn-hover:hover {
+  opacity: 0.9;
+}
+
 .nav-container {
+  width: 100%;
+  position: absolute;
   z-index: 999;
 }
 
@@ -96,14 +102,16 @@ h4 {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .nav-ul {
+  background-color: #ffffff8a;
   height: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 9999;
 }
 
 .nav-ul li {
@@ -113,25 +121,185 @@ h4 {
 
 .nav-ul .logo-weblaudo {
   height: 7rem;
-  width: 10rem;
+  margin: 0 3rem 0 3rem;
 }
 
 .btn-work-with-us {
-  width: 10rem;
-  height: 2.5rem;
+  width: 12rem;
+  height: 3rem;
   border-radius: 3rem;
   background-color: #16477F;
   color: #F2FEFC;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: bold;
   outline: 0cm;
   border: transparent;
-  margin: 0 4rem 0 4rem;
+  margin: 0 3rem 0 3rem;
+}
+
+.carousel img {
+  margin-top: -7rem;
+  height: 53.125rem;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-box-home1 {
+  margin: -26rem 31% 0 31%;
+  width: 38%;
+  background-color: #0b1731de;
+  position: absolute;
+  z-index: 999;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.float-box-home1 h1, .float-box-home1 h4 {
+  color: #F2FEFC;
+  margin-bottom: 1rem;
+}
+
+.float-box-home1 h1 {
+  font-size: 2.5rem;
+}
+
+.float-box-home1 h4 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.float-box-home1 .button-wrapper-home1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.float-box-home1 .button-wrapper-home1 .btn1 {
+  margin-right: 0.5rem;
+}
+
+.float-box-home1 .button-wrapper-home1 .btn2 {
+  margin-left: 0.5rem;
+}
+
+.float-box-home1 .button-wrapper-home1 .btn-index-sec1 {
+  height: 3rem;
+  width: 15.5rem;
+  border-radius: 0.5rem;
+  background-color: #3BA6DE;
+  color: #F2FEFC;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  outline: 0cm;
+  border: transparent;
+}
+
+.index-sec-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 7rem;
+  background-color: #E6F4F8;
+  margin: -7rem 0 -7rem 0;
+  height: 50rem;
+}
+
+.index-sec-2 h1 {
+  text-align: center;
+  color: #3BA6DE;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.index-sec-2 h4 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.index-sec-2 h4 strong {
+  font-weight: bold;
+}
+
+.index-sec-2 .index-sec-2-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.index-sec-2 .index-sec-2-content ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.index-sec-2 .index-sec-2-content ul li {
+  width: 12.3rem;
+  margin: 0 1.2rem 0 1.2rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.index-sec-2 .index-sec-2-content ul li img {
+  margin-bottom: 0.5rem;
+}
+
+.index-sec-2 .index-sec-2-content ul li h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.index-sec-2 .index-sec-2-divider {
+  border-bottom: 0.2rem #E62714 solid;
+  margin: 2rem 47% 2rem 47%;
+}
+
+.index-sec-2 .index-sec-2-divider-2 {
+  border-bottom: 0.2rem #E62714 solid;
+  margin: 3rem 47% 1.6rem 47%;
+}
+
+.index-sec-2 .index-sec-2-p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.index-sec-2 .btn-contato-orange {
+  display: flex;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  color: #F2FEFC;
+  font-size: 1.1rem;
+  outline: 0cm;
+  border: transparent;
+  background-color: #E62714;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 40% 2rem 40%;
+  letter-spacing: 1.5px;
+  font-family: Montserrat;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wp-icon img {
+  height: 5rem;
+  width: 5rem;
+  position: fixed;
+  right: 4rem;
+  bottom: 2rem;
 }
 
 a, p, h1, h2, h3, h4, h5, h6, li {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 a, p, h5, h6, li {
@@ -152,6 +320,10 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+}
+
+.btn-hover:hover {
+  opacity: 0.9;
 }
 
 footer {

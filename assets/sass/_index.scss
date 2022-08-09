@@ -1,0 +1,164 @@
+
+.carousel img{
+  margin-top: -7rem;
+  height: 53.125rem;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-box-home1 {
+  margin: -26rem 31% 0 31%;
+  width: 38%;
+  background-color: $azul-escuro-transparente;
+  position: absolute;
+  z-index: 999;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  h1,h4 {
+    color: $branco;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+  .button-wrapper-home1 {    
+    display: flex;
+    justify-content: space-around;
+
+    .btn1 {
+      margin-right: 0.5rem;
+    }
+
+    .btn2 {
+      margin-left: 0.5rem;
+    }
+   
+    .btn-index-sec1 {
+    height: 3rem;
+    width: 15.5rem;
+    border-radius: 0.5rem;
+    background-color: $azul-medio;
+    color: $branco;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    outline: 0cm;
+    border: transparent; 
+  }
+}
+
+
+}
+
+.index-sec-2 {    
+  display: flex;  
+  flex-direction: column;
+  text-align: center;
+  padding-top: 7rem;
+  background-color: $azul-claro-sec2;
+  margin: -7rem 0 -7rem 0;
+  height: 50rem;
+
+  h1 {
+    text-align: center;
+    color: $azul-medio;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  h4 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+    strong {
+      font-weight: bold;
+    }
+  }
+
+  .index-sec-2-content{
+    display: flex;
+    justify-content: space-around;
+    ul{    
+      display: flex;  
+      flex-direction: row;
+      text-align: center;
+      li{
+        width: 12.3rem;
+        margin: 0 1.2rem 0 1.2rem;
+        line-height: 1.2;
+        font-weight:600;
+        img{
+          margin-bottom: 0.5rem;
+        }
+        h5 {
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
+
+  .index-sec-2-divider{
+    border-bottom: 0.2rem $laranja-botao solid;
+    margin: 2rem 47% 2rem 47%;    
+  }
+
+  .index-sec-2-divider-2{
+    border-bottom: 0.2rem $laranja-botao solid;
+    margin: 3rem 47% 1.6rem 47%;    
+  }
+
+  .index-sec-2-p {
+    font-size: 1rem;
+    font-weight:600;    
+  }
+
+  .btn-contato-orange {
+    display: flex;
+    height: 3.5rem;
+    border-radius: 0.25rem;
+    color: $branco;
+    font-size: 1.1rem;
+    outline: 0cm;
+    border: transparent; 
+    background-color: $laranja-botao;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 40% 2rem 40%;
+    letter-spacing: 1.5px ;
+    font-family: Montserrat;
+  }
+}
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.wp-icon {
+
+  img {
+    height: 5rem;
+    width: 5rem;    
+    position:fixed;
+    right: 4rem;
+    bottom: 2rem;
+  }
+}

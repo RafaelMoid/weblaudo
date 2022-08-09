@@ -1,17 +1,20 @@
 //Colors
+$azul-claro-sec2: #E6F4F8;
 $azul-claro: #53CBF4;
 $azul-medio: #3BA6DE;
 $azul-medio2: #16477F;
 $azul-escuro: #182E5F;
+$azul-escuro-transparente: #0b1731de;
 $azul-botao: #0C88D1;
-$laranja-botao: #E53829;
+$laranja-botao: #E62714;
 $branco: #F2FEFC;
+$branco-transparente: #ffffff8a;
 $icons-white: #FFFFFF;
 
 
 //Fonts Config
 a, p, h1, h2, h3, h4, h5, h6, li {
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Titillium Web', sans-serif;
 }
 
 a, p, h5, h6, li {
@@ -32,4 +35,8 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
+}
+
+.btn-hover:hover {
+    opacity: 0.9;
 }
