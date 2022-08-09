@@ -1,3 +1,5 @@
+<?php // Template Name: Home ?>
+
 <?php get_header(); ?>
 
 <div class="carousel">
@@ -24,12 +26,12 @@
       <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-03.jpg"/></div>
       <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-04.jpg"/></div>
     </div> -->
-<section class="index-sec-2">
+<section class="servicos">
   <h1>Obtenha laudos a distância em radiologia</h1>
   <h4>A <strong>Weblaudo</strong> associou a melhor estrutura tecnológica em transmissões de imagem </br>
     a uma renomada equipe de radiologistas de ampla experiência profissional.</h4>
-  <div class="index-sec-2-divider"></div>
-  <div class="index-sec-2-content">
+  <div class="servicos-divider"></div>
+  <div class="servicos-content">
     <ul>
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icon-1.jpg">
@@ -58,8 +60,8 @@
       </li>
     </ul>
   </div>
-  <div class="index-sec-2-divider-2"></div>
-  <p class="index-sec-2-p">Em menos de 1 hora, seu serviço de imagem já pode receber nossos laudos a distância</p>
+  <div class="servicos-divider-2"></div>
+  <p class="servicos-p">Em menos de 1 hora, seu serviço de imagem já pode receber nossos laudos a distância</p>
   <button class="btn-contato-orange btn-hover">Entre em contato!</button>
 </section>
 <section class="index-sec-3">
@@ -83,39 +85,37 @@
   </div>
 </section>
 
-<section class="index-sec-4">
-  <h1>Perguntas frequentes</h1>
-  <?php if( have_rows('FAQ') ): ?>
-    <ul>
+  <section class="faq">
+        <h2>Perguntas Frequentes</h2>
 
-    <?php while( have_rows('FAQ') ): the_row(); ?>
+        <?php if ( have_rows('FAQ') ) : $i = 0; ?>
 
-        <li>
-          <div>
-            <h3><?php the_field('question_counter') ?></h3>
-            <h4><?php the_field('question_tittle') ?></h4>
-          </div>
-          <p><?php the_field('question_answer') ?></p>
-        </li>
-        
-        <?php 
-        
-        $sub_field_3 = get_sub_field('sub_field_3'); 
-        
-        // do something with $sub_field_3
-        
-        ?>
-        
-    <?php endwhile; ?>
+        <?php while (have_rows('FAQ')) : the_row(); $i++;?>
 
-    </ul>
-    <?php endif; ?>
-  <div>
-    <p>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-item-header">
+                    <h3>
+                        <span><?php echo '0' . $i . '.' ?></span>
+                        <?php the_sub_field('question_tittle'); ?>
+                    </h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                      <?php the_sub_field('question_answer'); ?>
+                  </div>
+                </div>
+            </div>
+        </div>
 
-    </p>
-    <button></button>
-  </div>
-</section>
+        <?php endwhile; ?>
+
+        <div class="duvida">
+            <p>Não tirou sua dúvida? Pergunte agora > > ></p><button>PERGUNTE AQUI</button>
+        </div>
+
+        <?php else: echo 'Ainda não há perguntas'; endif; ?>
+  </section>
 
 <?php get_footer(); ?>

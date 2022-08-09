@@ -63,7 +63,7 @@
 
 }
 
-.index-sec-2 {    
+.servicos {    
   display: flex;  
   flex-direction: column;
   text-align: center;
@@ -89,7 +89,7 @@
     }
   }
 
-  .index-sec-2-content{
+  .servicos-content{
     display: flex;
     justify-content: space-around;
     ul{    
@@ -114,17 +114,17 @@
 
   }
 
-  .index-sec-2-divider{
+  .servicos-divider{
     border-bottom: 0.2rem $laranja-botao solid;
     margin: 2rem 47% 2rem 47%;    
   }
 
-  .index-sec-2-divider-2{
+  .servicos-divider-2{
     border-bottom: 0.2rem $laranja-botao solid;
     margin: 3rem 47% 1.6rem 47%;    
   }
 
-  .index-sec-2-p {
+  .servicos-p {
     font-size: 1rem;
     font-weight:600;    
   }
@@ -211,6 +211,87 @@
   }
 
 }
+
+.faq {
+  background-color: $azul-faq;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: $azul-medio2;
+    justify-content: flex-start;
+    margin: 3rem 0 3rem 20%;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .accordion {
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    .accordion-item{
+      margin: 0 0 2rem 0;
+      padding: 0 0 2rem 0;
+      background-color: $azul-faq;
+      border-bottom: 1px solid $azul-medio;
+      .accordion-item-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $azul-medio2;
+        h3 {
+          font-size: 1.4rem;
+          font-weight: bold;
+          span {
+            color: $azul-medio;
+          }
+        }
+      }
+
+    //   .accordion-item-header::after {
+    //     font-family: "Font Awesome 5 Free";
+    //     content: "\f078";
+    //   }
+    // }
+    //   .accordion-item-header.active {
+    //     font-family: "Font Awesome 5 Free";
+    //     content: "\f077";
+      .accordion-item-body {
+        display: none;
+      }
+      }
+    }
+
+    .duvida {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: left;
+      margin: 3rem 0 5rem 20%;
+      p {
+        align-items: center;
+        justify-content: center;
+        color:$azul-medio2;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+
+      button {
+        background-color: transparent;
+        color: $azul-medio;
+        border: solid $azul-medio 2px;
+        margin-left: 0.5rem;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+      }
+
+    }
+
+}
+
+
+
 .uppercase {
   text-transform: uppercase;
 }

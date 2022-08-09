@@ -204,7 +204,7 @@ h4 {
   border: transparent;
 }
 
-.index-sec-2 {
+.servicos {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -214,67 +214,67 @@ h4 {
   height: 42rem;
 }
 
-.index-sec-2 h1 {
+.servicos h1 {
   text-align: center;
   color: #3BA6DE;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.index-sec-2 h4 {
+.servicos h4 {
   margin-top: 1rem;
   text-align: center;
   font-size: 1.2rem;
 }
 
-.index-sec-2 h4 strong {
+.servicos h4 strong {
   font-weight: bold;
 }
 
-.index-sec-2 .index-sec-2-content {
+.servicos .servicos-content {
   display: flex;
   justify-content: space-around;
 }
 
-.index-sec-2 .index-sec-2-content ul {
+.servicos .servicos-content ul {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
 
-.index-sec-2 .index-sec-2-content ul li {
+.servicos .servicos-content ul li {
   width: 12.3rem;
   margin: 0 1.2rem 0 1.2rem;
   line-height: 1.2;
   font-weight: 600;
 }
 
-.index-sec-2 .index-sec-2-content ul li img {
+.servicos .servicos-content ul li img {
   margin-bottom: 0.5rem;
 }
 
-.index-sec-2 .index-sec-2-content ul li h5 {
+.servicos .servicos-content ul li h5 {
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.index-sec-2 .index-sec-2-divider {
+.servicos .servicos-divider {
   border-bottom: 0.2rem #E62714 solid;
   margin: 2rem 47% 2rem 47%;
 }
 
-.index-sec-2 .index-sec-2-divider-2 {
+.servicos .servicos-divider-2 {
   border-bottom: 0.2rem #E62714 solid;
   margin: 3rem 47% 1.6rem 47%;
 }
 
-.index-sec-2 .index-sec-2-p {
+.servicos .servicos-p {
   font-size: 1rem;
   font-weight: 600;
 }
 
-.index-sec-2 .btn-contato-orange {
+.servicos .btn-contato-orange {
   display: flex;
   height: 3.5rem;
   border-radius: 0.25rem;
@@ -352,6 +352,79 @@ h4 {
   font-size: 1.1rem;
   font-weight: bold;
   line-height: 2;
+}
+
+.faq {
+  background-color: #EBF5FB;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq h2 {
+  color: #16477F;
+  justify-content: flex-start;
+  margin: 3rem 0 3rem 20%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.faq .accordion {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq .accordion .accordion-item {
+  margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
+  background-color: #EBF5FB;
+  border-bottom: 1px solid #3BA6DE;
+}
+
+.faq .accordion .accordion-item .accordion-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #16477F;
+}
+
+.faq .accordion .accordion-item .accordion-item-header h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.faq .accordion .accordion-item .accordion-item-header h3 span {
+  color: #3BA6DE;
+}
+
+.faq .accordion .accordion-item .accordion-item-body {
+  display: none;
+}
+
+.faq .duvida {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin: 3rem 0 5rem 20%;
+}
+
+.faq .duvida p {
+  align-items: center;
+  justify-content: center;
+  color: #16477F;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.faq .duvida button {
+  background-color: transparent;
+  color: #3BA6DE;
+  border: solid #3BA6DE 2px;
+  margin-left: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
 }
 
 .uppercase {
