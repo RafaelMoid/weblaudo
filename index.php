@@ -62,4 +62,25 @@
   <p class="index-sec-2-p">Em menos de 1 hora, seu serviço de imagem já pode receber nossos laudos a distância</p>
   <button class="btn-contato-orange btn-hover">Entre em contato!</button>
 </section>
+<section class="index-sec-3">
+  <div class="sec-3-banner-container">
+    <img class="index-sec-3-banner" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-02.jpg">
+  </div>
+  <div class="sec-3-content">
+    <h1>Laudos a distância em Radiologia </br>para clínicas e hospitais</h1>
+    <h4>A telerradiologia é o ramo específico da telemedicina que permite a elaboração de laudos a distância (telelaudo) e segunda
+       opinião especializada.
+    </h4>
+    <ul class="sec-3-ul">
+      <li>Tomografia computadorizada</li>
+      <li>Ressonância magnética</li>
+      <li>Laudos de segunda opinião</li>
+      <li>Raio-x</li>
+      <li>Densitometria óssea</li>
+      <li>Mamografia</li>
+      <li>Laudos em até 2 horas</li>
+    </ul>
+  </div>
+</section>
+
 <?php get_footer(); ?>
