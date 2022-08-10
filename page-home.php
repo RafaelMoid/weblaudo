@@ -46,7 +46,7 @@
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icon-3.jpg">
         <h5>Laudo</h5>
-        <p>Elaboração dos laudos a distância por radiologistas especialistas, 24h/dia </br>365 dias/ano.</p>
+        <p>Elaboração dos laudos a distância por radiologistas especialistas, 24h/dia 365 dias/ano.</p>
       </li>
       <li>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icon-4.jpg">
@@ -116,6 +116,35 @@
         </div>
 
         <?php else: echo 'Ainda não há perguntas'; endif; ?>
+  </section>
+  <section class="work-with-us">
+    <h1>Trabalhe Conosco</h1>
+    <h6>Agradecemos o seu interesse em fazer parte da equipe WebLaudo! </br> Anexe seu currículo que entraremos em contato.</h6>
+
+    <form method="post" action="<?php echo get_template_directory_uri(); ?>/enviar.php">
+      <div>
+        <input type="text" name="hosp" id="hosp" placeholder="Nome do hospital ou clinica*">
+        <input type="text" name="nome" id="nome" placeholder="Seu nome*">
+      </div>
+      <div>
+        <input type="text" name="cidade" id="cidade" placeholder="Cidade*">
+        <input type="text" name="estado" id="estado" placeholder="Estado*">
+      </div>
+      <div>
+        <input type="email" name="email" id="email" placeholder="Email*">
+        <input type="tel" name="tel" id="tel"  placeholder="DDD e Telefone*">
+      </div>
+      <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem" rows="8"></textarea>
+      <div>
+        <label for="file" class="label-file btn-hover">Escolher arquivo</label>
+        <input type="file" id="file" name="file">
+      </div>
+      <div>
+        <label for="submit" class="submit-file btn-hover">Enviar minhas informações</label>
+        <input type="submit" value="Enviar minhas informações" name="submit" id="submit">
+      </div>
+      <p>Prometemos não utilizar suas informações para enviar qualquer tipo de SPAM</p>
+    </form>
   </section>
 
 <?php get_footer(); ?>

@@ -9,12 +9,15 @@ $azul-botao: #0C88D1;
 $azul-faq:#EBF5FB;
 $laranja-botao: #E62714;
 $branco: #F2FEFC;
+$branco-trabalhe-conosco: #F7F7F7;
 $branco-transparente: #ffffff8a;
 $icons-white: #FFFFFF;
+$cinza: #b0b0b0;
+$cinza-claro: #d5d4d4;
 
 
 //Fonts Config
-a, p, h1, h2, h3, h4, h5, h6, li {
+a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea{
    font-family: 'Titillium Web', sans-serif;
 }
 
@@ -40,4 +43,5 @@ h4 {
 
 .btn-hover:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
