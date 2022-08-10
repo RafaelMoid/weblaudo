@@ -185,8 +185,8 @@ h4 {
 }
 
 .float-box-home1 {
-  margin: -26rem 31% 0 31%;
-  width: 38%;
+  margin: -26rem 30% 0 30%;
+  width: 40%;
   background-color: #0b1731de;
   position: absolute;
   z-index: 999;
@@ -234,6 +234,18 @@ h4 {
   font-size: 0.9rem;
   outline: 0cm;
   border: transparent;
+}
+
+@media screen and (max-width: 1050px) {
+  .float-box-home1 .button-wrapper-home1 .btn-index-sec1 {
+    width: 11rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .float-box-home1 .button-wrapper-home1 .btn-index-sec1 {
+    width: 13rem;
+  }
 }
 
 .servicos {
