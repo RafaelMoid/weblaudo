@@ -46,11 +46,11 @@
                         <p>Pina - Recife - PE</p>
                         <p>CEP 51110-160</p>
                         <p>Telefone: (81) 3204-3011</p>
-                        <p>E-mail: <a href="">atendimento@weblaudo.com.br</a></p>
+                        <p class="sec-2-email">E-mail: <a href=""> atendimento@weblaudo.com.br</a></p>
                     <div class="social-icons">
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/weblaudo/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/instagram.png" alt="link instagram" class="social-icon"></a>
+                        <a href="https://m.facebook.com/people/Weblaudo-Telerradiologia/100007126635474?locale=pt_BR" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/facebook.png" alt="link facebook" class="social-icon"></a>
+                        <a href="https://twitter.com/Weblaudo" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/twitter.png" alt="link twitter" class="social-icon"></a>
                     </div>
                 </section>
             </div>

@@ -7,9 +7,7 @@
   <div class="float-box-home1">
     <h1 class="uppercase">Teleradiologia</h1>
     <h4>
-      Laudos a distância e segunda opinião especalizada</br>
-      através da telemedicina que permite a elaboração de </br>
-      resultados precisos e eficientes.
+      Laudos a distância e segunda opinião especalizada através da telemedicina que permite a elaboração de resultados precisos e eficientes.
     </h4>
     <div class="button-wrapper-home1">
       <button class="btn-index-sec1 btn1 btn-hover">Solicitar orçamento</button>
@@ -19,13 +17,6 @@
   <a class="wp-icon btn-hover"><img  alt="wp-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/whatsapp.png"/></a>
 </div>
 
-    <!-- <h1>Teste de retorno</h1>
-    <div class="owl-carousel wol-theme carrosel-destaques">
-      <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-01.jpg"/></div>
-      <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-02.jpg"/></div>
-      <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-03.jpg"/></div>
-      <div class="item-destaque"><img  alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-04.jpg"/></div>
-    </div> -->
 <section class="servicos">
   <h1>Obtenha laudos a distância em radiologia</h1>
   <h4>A <strong>Weblaudo</strong> associou a melhor estrutura tecnológica em transmissões de imagem </br>
@@ -64,6 +55,7 @@
   <p class="servicos-p">Em menos de 1 hora, seu serviço de imagem já pode receber nossos laudos a distância</p>
   <button class="btn-contato-orange btn-hover">Entre em contato!</button>
 </section>
+
 <section class="index-sec-3">
   <div class="sec-3-banner-container">
     <img class="index-sec-3-banner" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/IMG-destaque-WL-02.jpg">
@@ -85,7 +77,8 @@
   </div>
 </section>
 
-  <section class="faq">
+<section class="faq">
+
         <h2>Perguntas Frequentes</h2>
 
         <?php if ( have_rows('FAQ') ) : $i = 0; ?>
@@ -115,9 +108,10 @@
             <p>Não tirou sua dúvida? Pergunte agora > > ></p><button>PERGUNTE AQUI</button>
         </div>
 
-        <?php else: echo 'Ainda não há perguntas'; endif; ?>
-  </section>
-  <section class="work-with-us">
+      <?php else: echo 'Ainda não há perguntas'; endif; ?>
+</section>
+
+<section class="work-with-us">
     <h1>Trabalhe Conosco</h1>
     <h6>Agradecemos o seu interesse em fazer parte da equipe WebLaudo! </br> Anexe seu currículo que entraremos em contato.</h6>
 
@@ -128,7 +122,36 @@
       </div>
       <div>
         <input type="text" name="cidade" id="cidade" placeholder="Cidade*">
-        <input type="text" name="estado" id="estado" placeholder="Estado*">
+        <select id="estado" name="estado">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+          <option value="EX">Estrangeiro</option>
+        </select>
       </div>
       <div>
         <input type="email" name="email" id="email" placeholder="Email*">

@@ -503,7 +503,8 @@ h4 {
 }
 
 .work-with-us form textarea {
-  outline: #d5d4d4;
+  outline: #d5d4d4 !important;
+  border-color: #d5d4d4 !important;
 }
 
 .work-with-us form div {
@@ -512,7 +513,7 @@ h4 {
   justify-content: space-between;
 }
 
-.work-with-us form div input {
+.work-with-us form div input, .work-with-us form div select {
   flex-direction: row;
   align-items: center;
   width: 48.5%;
@@ -679,7 +680,7 @@ footer .footer-section-1 .footer-sub-section-2 img {
 }
 
 footer .footer-section-2 {
-  padding: 6rem 20% 4rem 10%;
+  padding: 6rem 10% 4rem 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -706,6 +707,7 @@ footer .footer-section-2 section {
 footer .footer-section-2 .social-icons {
   display: flex;
   justify-content: left;
+  transition: 0.5;
 }
 
 footer .footer-section-2 .social-icons a {
@@ -713,43 +715,27 @@ footer .footer-section-2 .social-icons a {
   height: 2rem;
 }
 
+footer .footer-section-2 .social-icons > a:hover {
+  scale: 1.1;
+  opacity: 0.7;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .sec-2-email {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  white-space: nowrap;
+}
+
+footer .footer-section-2 .sec-2-sec-2 .sec-2-email a {
+  width: 100%;
+  flex-direction: row;
+  white-space: nowrap;
+  margin-left: 4px;
+}
+
 footer .footer-section-2 .sec-2-sec-2 a {
   text-decoration: none;
-}
-
-footer .footer-section-2 .sec-2-sec-2 .fa {
-  text-align: center;
-  font-size: 30px;
-}
-
-footer .footer-section-2 .sec-2-sec-2 .fa-instagram {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 2.2rem;
-}
-
-footer .footer-section-2 .sec-2-sec-2 .fa-facebook {
-  background-color: #FFFFFF;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #16477F;
-  margin: 0 0.5rem 0 0.5rem;
-}
-
-footer .footer-section-2 .sec-2-sec-2 .fa-twitter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  font-size: 2.2rem;
-}
-
-footer .footer-section-2 .sec-2-sec-2 .fa:hover {
-  opacity: 0.9;
 }
 
 footer .footer-section-3 {

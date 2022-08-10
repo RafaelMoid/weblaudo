@@ -333,7 +333,8 @@
     margin: 0 auto 2rem auto;
 
     textarea {
-      outline: $cinza-claro;
+      outline: $cinza-claro !important;
+      border-color: $cinza-claro !important;
     }
 
     div{
@@ -341,7 +342,7 @@
       flex-direction: row;
       justify-content: space-between;
       
-      input {
+      input, select {
         flex-direction: row;
         align-items: center;
         width: 48.5%;
