@@ -292,12 +292,12 @@ h4 {
 }
 
 .servicos .servicos-divider {
-  border-bottom: 0.2rem #E62714 solid;
+  border-bottom: 0.2rem #3BA6DE solid;
   margin: 2rem 47% 2rem 47%;
 }
 
 .servicos .servicos-divider-2 {
-  border-bottom: 0.2rem #E62714 solid;
+  border-bottom: 0.2rem #3BA6DE solid;
   margin: 3rem 47% 1.6rem 47%;
 }
 
@@ -314,7 +314,7 @@ h4 {
   font-size: 1.1rem;
   outline: 0cm;
   border: transparent;
-  background-color: #E62714;
+  background-color: #3BA6DE;
   font-weight: bold;
   align-items: center;
   justify-content: center;
@@ -432,6 +432,17 @@ h4 {
 
 .faq .accordion .accordion-item .accordion-item-body {
   display: none;
+  color: #16477F;
+  margin: 2.5% 5% 0 0;
+  font-weight: bold;
+}
+
+.faq .active .accordion-item .accordion-item-body {
+  display: block;
+}
+
+.faq .active i {
+  transform: rotateZ(-180deg);
 }
 
 .faq .duvida {

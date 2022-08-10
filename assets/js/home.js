@@ -1,8 +1,8 @@
-const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+const accordionItemHeaders = document.querySelectorAll(".accordion");
 
 accordionItemHeaders.forEach(accordionItemHeader => {
-    accordionItemHeader.addEventListener("click", event => {
-        accordionItemHeader.classList.toggle("active");
-        console.log(click);
+    accordionItemHeader.addEventListener("click", function () {
+       this.classList.toggle("active")
     });
 })
+

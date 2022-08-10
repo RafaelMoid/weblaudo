@@ -74,11 +74,11 @@
        opinião especializada.
     </h4>
     <ul class="sec-3-ul">
-      <li>Tomografia computadorizada</li>
-      <li>Ressonância magnética</li>
-      <li>Laudos de segunda opinião</li>
+      <li>Tomografia Computadorizada</li>
+      <li>Ressonância Magnética</li>
+      <li>Laudos de Segunda Opinião</li>
       <li>Raio-x</li>
-      <li>Densitometria óssea</li>
+      <li>Densitometria Óssea</li>
       <li>Mamografia</li>
       <li>Laudos em até 2 horas</li>
     </ul>
