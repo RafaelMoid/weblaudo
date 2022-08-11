@@ -1,0 +1,383 @@
+.nav-container {
+  position: relative;
+}
+
+.nav-ul {
+  background-color: $branco;
+}
+
+.container-banner-servicos {
+
+  .banner-title {  
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color:$azul-medio;
+
+    h1{
+      align-items: baseline;
+      color: $branco;
+      margin: auto 0 auto 2.2rem;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+
+  }
+    
+    img {
+      width: 100%;
+    }
+
+  .banner-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+
+
+    div {      
+      margin: -35% 0 0 -15%;
+      color: $branco;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      line-height: 1.4;
+      h1 {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1.8rem; 
+      }
+      h2 {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-bottom: solid 2px $azul-medio;
+        margin-left: 8px;
+        font-size: 1.8rem; 
+        // text-decoration: underline;
+        // text-decoration-color: $azul-medio;
+      }
+    }
+
+    h3 {
+      color: $branco;
+      font-size: 1.8rem; 
+      margin: 8px 0 0 15%;
+    }
+
+  }
+
+  .servicos-line {
+    border: solid 2px $azul-medio2;
+  }
+
+}
+
+
+.addon-card-servicos {
+  margin-top: 3.5%;
+}
+
+@media screen and (min-width: 1150px){
+
+  .container-banner-servicos {
+
+    .banner-title {  
+      display: flex;
+      width: 100%;
+      height: 7rem;
+      background-color:$azul-medio;
+  
+      h1{
+        align-items: baseline;
+        color: $branco;
+        margin: auto 0 auto 2.2rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+  
+    }
+      
+      img {
+        width: 100%;
+      }
+  
+    .banner-servicos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;   
+  
+  
+      div {      
+        margin: -35% 0 0 -15%;
+        color: $branco;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        line-height: 1.4;
+        h1 {
+          font-weight: 500;
+          text-transform: uppercase;
+          font-size: 2.2rem; 
+        }
+        h2 {
+          font-weight: 500;
+          text-transform: uppercase;
+          font-weight: bold;
+          border-bottom: solid 2px $azul-medio;
+          margin-left: 8px;
+          font-size: 2.2rem;  
+          // text-decoration: underline;
+          // text-decoration-color: $azul-medio;
+        }
+      }
+  
+      h3 {
+        color: $branco;
+        font-size: 2.2rem; 
+        margin: 8px 0 0 15%;
+      }
+  
+  }
+
+}
+}
+
+.container-sub-content-servicos {
+  margin-top: -8px;
+  background-color: $azul-medio;
+  display: flex;
+  justify-content: center;
+  p {
+    font-size: 1.4rem;
+    color: $branco-trabalhe-conosco;
+    width: 90%;
+    padding: 2rem 0;
+    font-style: italic;
+    font-weight: 600;
+    hyphens: auto;
+    text-align: justify;
+    line-height: 1.4;
+  }
+}
+
+.page-servicos-content {
+  display: flex;
+  flex-direction: column;
+  // padding: 14rem 0 0 0;
+  background-color: $branco-trabalhe-conosco;
+  // margin-top: 15%;
+
+  .container-1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    img {
+      width: 42%;
+      height: 100%;
+      border-radius: 16px;
+      margin-right: 7.5%;
+    }
+
+    p {
+      margin-left:7.5%;
+      width: 38%;
+      line-height: 1.4;
+      font-size: 1rem;
+      color: $azul-medio2;
+      hyphens: auto;
+      text-align: justify;
+      font-weight: 600;
+    }
+
+  }
+
+  .container-2 {
+    margin-top: 3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+    img {
+      width: 42%;
+      height: 100%;
+      border-radius: 16px;
+      margin-left: 7.5%;
+    }
+
+    p {
+      margin-right:7.5%;
+      width: 38%;
+      line-height: 1.4;
+      font-size: 1rem;
+      color: $azul-medio2;
+      hyphens: auto;
+      text-align: justify;
+      font-weight: 600;
+    }
+
+  }
+
+  .card-conteiner-servicos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .card-servicos-1 {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      background-color: $icons-white;
+      width: 40%;
+      border-radius: 1rem;
+      margin: 0 0 4rem 7.5%;
+      height: max-content;
+      height: 27rem;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
+      ul{
+        margin-left: 1rem;
+        li {
+          margin:1rem auto;
+          width: 90%;
+          line-height: 1.4;
+          font-size: 1.2rem;
+          color: $azul-medio2;
+          hyphens: auto;
+          font-weight: 600;
+        }
+
+        li::before {
+          margin-right: 4px;
+          content:"\25CF";
+          border-radius: 10rem;
+          font-size: 1rem;
+        }
+
+      }
+
+      .text-container-somos {
+        display: flex;
+        flex-direction: row;
+        background-color: $icons-white;
+        margin: 1.2rem 0 0.4rem 1rem;
+
+        h2 {
+          font-size: 2rem;
+          color: $azul-medio2;
+        }
+
+        .como-h2 {
+          margin-left: 1rem;
+        }
+
+        .como-funciona-line{
+          display: flex;
+          height: 1.2rem;
+          width: 100%;
+          border-bottom: 3px solid $azul-medio2;
+          margin-left: 8px;
+        }
+      }
+    }
+    align-items: center;
+    .card-servicos-2 {
+      display: flex;
+      flex-direction: column;
+      background-color: $azul-medio2;
+      width: 40%;
+      color: $icons-white;
+      border-radius: 1rem;
+      margin: 0 7.5% 4rem 0;
+      height: 27rem;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
+      ul{
+        margin-left:1rem;
+        li {
+          margin:1rem auto;
+          width: 90%;
+          line-height: 1.4;
+          font-size: 1.2rem;
+          color: $icons-white;
+          hyphens: auto;
+          font-weight: 600;
+        }
+
+        li::before {
+          margin-right: 4px;
+          content:"\25CF";
+          border-radius: 10rem;
+          font-size: 1rem;
+        }
+      }
+
+      .text-container-somos {
+        display: flex;
+        flex-direction: row;
+        background-color:  $azul-medio2;
+        margin: 1.2rem 0 0.4rem 2rem;
+
+        h2 {
+          font-size: 2rem;
+          color: $icons-white;
+        }
+
+        .como-funciona-line-2{
+          display: flex;
+          height: 1.2rem;
+          width: 100%;
+          border-bottom: 3px solid $icons-white;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+.strong-h2 {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+//AJUSTE DE CARDS
+@media screen and (max-width: 958px) {
+
+  .container-banner-servicos {
+    .banner-servicos {
+      h1 {
+        font-size:1.5rem ;
+      }
+    }
+  }
+
+  .page-servicos-content {
+    .card-conteiner-servicos {
+        .card-servicos-1 {
+    height: 35.5rem;
+  }
+  .card-servicos-2 {
+    height: 35.5rem;
+  }
+    }
+  }
+
+}
+
+.addon-servicos {
+  margin: 0 auto 0 auto;
+  height: 25rem;
+  padding: 0;
+  ul {
+  padding: 2rem;
+  }
+
+  .servicos-divider-2 {
+    margin-top: 0;
+  }
+
+}
