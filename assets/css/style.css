@@ -1174,6 +1174,92 @@ input[type="file"], input[type="submit"] {
   margin-top: 0;
 }
 
+.nav-container {
+  position: relative;
+}
+
+.nav-ul {
+  background-color: #F2FEFC;
+}
+
+.container-banner-contato .banner-title {
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background-color: #3BA6DE;
+}
+
+.container-banner-contato .banner-title h1 {
+  align-items: baseline;
+  color: #F2FEFC;
+  margin: auto 0 auto 2.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.container-contato {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-contato .adress-container {
+  margin: 3rem 0 0 5%;
+  width: 20%;
+}
+
+.container-contato .adress-container div {
+  margin-bottom: 1.5rem;
+}
+
+.container-contato .adress-container h3, .container-contato .adress-container h4 {
+  color: #3BA6DE;
+}
+
+.container-contato .adress-container h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.container-contato .adress-container h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.container-contato .adress-container p {
+  color: #16477F;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.container-contato .adress-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contato .map-container {
+  margin: 3rem 1rem;
+}
+
+.container-contato .contato-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.container-contato .contato-form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 3rem 5% 0 0;
+}
+
+.container-contato .contato-form-container form input, .container-contato .contato-form-container form select, .container-contato .contato-form-container form textarea {
+  width: 15rem;
+}
+
 a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea {
   font-family: 'Titillium Web', sans-serif;
 }
