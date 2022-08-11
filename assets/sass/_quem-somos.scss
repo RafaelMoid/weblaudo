@@ -1,0 +1,236 @@
+.nav-ul {
+  background-color: $branco;
+}
+
+.container-banner-quem-somos {
+
+  .banner-title {  
+    display: flex;
+    padding-top: 7rem;
+    position:absolute;
+    z-index: 99;
+    width: 100%;
+    height: 7rem;
+    background-color:$azul-medio;
+
+    h1{
+      align-items: baseline;
+      color: $branco;
+      margin: auto 0 auto 2.2rem;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+
+  }
+
+  .banner-quem-somos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    img {
+      padding-top: 7rem;
+      width: 100%;
+    }
+    h1 {
+      color: $branco;
+      margin:  -18% auto auto auto;
+      font-size: 2.4rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    
+  }
+}
+
+.quem-somos-content {
+  display: flex;
+  flex-direction: column;
+  padding: 14rem 0 0 0;
+  background-color: $branco-trabalhe-conosco;
+
+  .container-1 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    img {
+      width: 42%;
+      height: 100%;
+      border-radius: 16px;
+      margin-right: 7.5%;
+    }
+
+    p {
+      margin-left:7.5%;
+      width: 38%;
+      line-height: 1.4;
+      font-size: 1rem;
+      color: $azul-medio2;
+      hyphens: auto;
+      text-align: justify;
+      font-weight: 600;
+    }
+
+  }
+
+  .container-2 {
+    margin-top: 3rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+    img {
+      width: 42%;
+      height: 100%;
+      border-radius: 16px;
+      margin-left: 7.5%;
+    }
+
+    p {
+      margin-right:7.5%;
+      width: 38%;
+      line-height: 1.4;
+      font-size: 1rem;
+      color: $azul-medio2;
+      hyphens: auto;
+      text-align: justify;
+      font-weight: 600;
+    }
+
+  }
+
+  .card-conteiner-quem-somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .card-quem-somos-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: $icons-white;
+      width: 40%;
+      border-radius: 1rem;
+      margin: 0 0 4rem 7.5%;
+      height: max-content;
+      height: 30rem;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
+      img {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      p {
+        margin:1rem auto;
+        width: 90%;
+        line-height: 1.4;
+        font-size: 1rem;
+        color: $azul-medio2;
+        hyphens: auto;
+        text-align: justify;
+        font-weight: 600;
+      }
+
+      .text-container-somos {
+        display: flex;
+        flex-direction: row;
+        background-color: $icons-white;
+        margin: 1.2rem 0 0.4rem 1rem;
+
+        h2 {
+          font-size: 2rem;
+          color: $azul-medio2;
+        }
+
+        .como-h2 {
+          margin-left: 1rem;
+        }
+
+        .como-funciona-line{
+          display: flex;
+          height: 1.2rem;
+          width: 100%;
+          border-bottom: 3px solid $azul-medio2;
+          margin-left: 8px;
+        }
+      }
+    }
+    align-items: center;
+    .card-quem-somos-2 {
+      display: flex;
+      flex-direction: column;
+      background-color: $icons-white;
+      width: 40%;
+      color: $azul-medio2;
+      border-radius: 1rem;
+      margin: 0 7.5% 4rem 0;
+      height: 30rem;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+
+      p {
+        margin:1rem auto;
+        width: 90%;
+        line-height: 1.4;
+        font-size: 1rem;
+        color: $azul-medio2;
+        hyphens: auto;
+        text-align: justify;
+        font-weight: 600;
+      }
+
+      .text-container-somos {
+        display: flex;
+        flex-direction: row;
+        background-color: $icons-white;
+        margin: 1.2rem 0 0.4rem 1rem;
+
+        h2 {
+          font-size: 2rem;
+          color: $azul-medio2;
+        }
+
+        .como-funciona-line{
+          display: flex;
+          height: 1.2rem;
+          width: 100%;
+          border-bottom: 3px solid $azul-medio2;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+.strong-h2 {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+//AJUSTE DE CARDS
+@media screen and (max-width: 958px) {
+
+  .container-banner-quem-somos {
+    .banner-quem-somos {
+      h1 {
+        font-size:1.5rem ;
+      }
+    }
+  }
+
+  .quem-somos-content {
+    .card-conteiner-quem-somos {
+        .card-quem-somos-1 {
+    height: 35.5rem;
+  }
+  .card-quem-somos-2 {
+    height: 35.5rem;
+  }
+    }
+  }
+
+}
