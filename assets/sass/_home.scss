@@ -346,40 +346,46 @@
     font-weight: bold;
   }
 
-  form {
-    display: flex;
-    flex-direction: column;
+  .contato-form-container {
     width: 70%;
     margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: column;
 
-    textarea {
-      outline: $cinza-claro !important;
-      border-color: $cinza-claro !important;
-    }
+      form {
+        display: flex;
+        flex-direction: column;
 
-    div{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      
-      input, select {
-        flex-direction: row;
-        align-items: center;
-        width: 48.5%;
-        height: 2.4rem;
-        margin-bottom: 8px;
-        border: 1px solid $cinza-claro;
+        textarea {
+          outline: $cinza-claro !important;
+          border-color: $cinza-claro !important;
+        }
+
+        div{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          
+          input, select {
+            flex-direction: row;
+            align-items: center;
+            width: 48.5%;
+            height: 2.4rem;
+            margin-bottom: 8px;
+            border: 1px solid $cinza-claro;
+          }
+          
+        }
+
+        p{
+          margin-top:1rem;
+          font-size: 0.75rem;
+          font-weight: 600;
+          color:$cinza;
+        }
       }
-      
-    }
-
-    p{
-      margin-top:1rem;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color:$cinza;
-    }
   }
+
 
 }
 

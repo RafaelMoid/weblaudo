@@ -507,25 +507,30 @@ h4 {
   font-weight: bold;
 }
 
-.work-with-us form {
-  display: flex;
-  flex-direction: column;
+.work-with-us .contato-form-container {
   width: 70%;
   margin: 0 auto 2rem auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.work-with-us form textarea {
+.work-with-us .contato-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-with-us .contato-form-container form textarea {
   outline: #d5d4d4 !important;
   border-color: #d5d4d4 !important;
 }
 
-.work-with-us form div {
+.work-with-us .contato-form-container form div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.work-with-us form div input, .work-with-us form div select {
+.work-with-us .contato-form-container form div input, .work-with-us .contato-form-container form div select {
   flex-direction: row;
   align-items: center;
   width: 48.5%;
@@ -534,7 +539,7 @@ h4 {
   border: 1px solid #d5d4d4;
 }
 
-.work-with-us form p {
+.work-with-us .contato-form-container form p {
   margin-top: 1rem;
   font-size: 0.75rem;
   font-weight: 600;
@@ -1200,10 +1205,12 @@ input[type="file"], input[type="submit"] {
 .container-contato {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem 2.5%;
 }
 
 .container-contato .adress-container {
-  margin: 3rem 0 0 5%;
+  margin: 3rem 0 0 1%;
   width: 20%;
 }
 
@@ -1222,14 +1229,15 @@ input[type="file"], input[type="submit"] {
 }
 
 .container-contato .adress-container h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 .container-contato .adress-container p {
   color: #16477F;
-  font-weight: 600;
-  font-size: 0.8rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .container-contato .adress-container form {
@@ -1237,8 +1245,29 @@ input[type="file"], input[type="submit"] {
   flex-direction: column;
 }
 
+.container-contato .adress-container .funcionamento-container h4 {
+  font-size: 1rem;
+}
+
+.container-contato .adress-container .fone-container h5, .container-contato .adress-container .comercial-container h5 {
+  color: #16477F;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 4px 0;
+}
+
+.container-contato .adress-container .fone-container a, .container-contato .adress-container .comercial-container a {
+  margin: 4px 0;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #3BA6DE;
+  font-weight: 600;
+}
+
 .container-contato .map-container {
   margin: 3rem 1rem;
+  border: solid 1px #d5d4d4;
 }
 
 .container-contato .contato-form-container {
@@ -1246,18 +1275,158 @@ input[type="file"], input[type="submit"] {
   flex-direction: column;
   width: 30%;
   align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.container-contato .contato-form-container h4 {
+  justify-content: start;
+  color: #16477F;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .container-contato .contato-form-container form {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   width: 100%;
   align-items: center;
-  margin: 3rem 5% 0 0;
+  margin: 1rem 0 0 0;
+  /* The container must be positioned relative: */
+  /* Style the arrow inside the select element: */
+  /* Point the arrow upwards when the select box is open (active): */
+  /* style the items (options), including the selected item: */
+  /* Style items (options): */
+  /* Hide the items when the select box is closed: */
 }
 
-.container-contato .contato-form-container form input, .container-contato .contato-form-container form select, .container-contato .contato-form-container form textarea {
-  width: 15rem;
+.container-contato .contato-form-container form input {
+  width: 90%;
+  height: 2rem;
+  margin: 4px 0;
+  border: 1px solid #d5d4d4;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.container-contato .contato-form-container form .custom-select {
+  position: relative;
+  width: 92%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container-contato .contato-form-container form .custom-select select {
+  display: none;
+  /*hide original SELECT element: */
+}
+
+.container-contato .contato-form-container form .select-selected {
+  height: 1.2rem;
+  margin: 4px 0;
+  background-color: #FFFFFF;
+}
+
+.container-contato .contato-form-container form .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 18px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #0C88D1 transparent transparent transparent;
+}
+
+.container-contato .contato-form-container form .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+.container-contato .contato-form-container form .select-items div, .container-contato .contato-form-container form .select-selected {
+  color: #b0b0b0;
+  padding: 8px 9px;
+  border: 1px solid #d5d4d4;
+  border-color: #d5d4d4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.container-contato .contato-form-container form .select-items {
+  position: absolute;
+  background-color: #FFFFFF;
+  margin: 4px 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.container-contato .contato-form-container form .select-hide {
+  display: none;
+}
+
+.container-contato .contato-form-container form .select-items div:hover, .container-contato .contato-form-container form .same-as-selected {
+  background-color: rgba(204, 204, 204, 0.1);
+}
+
+.container-contato .contato-form-container form textarea {
+  width: 90%;
+  margin: 4px 0;
+  outline: #d5d4d4 !important;
+  border-color: #d5d4d4 !important;
+}
+
+.container-contato .contato-form-container form select option {
+  margin: 4px 0;
+}
+
+.container-contato .contato-form-container form #nome-ct::placeholder, .container-contato .contato-form-container form #email-ct::placeholder, .container-contato .contato-form-container form #tel-ct::placeholder, .container-contato .contato-form-container form #endereco-ct::placeholder {
+  padding: 2.5% 2.5% 0 2.5%;
+  color: #b0b0b0;
+}
+
+.container-contato .contato-form-container form #mensagem-ct::placeholder {
+  padding: 2.5% 2.5% 0 2.5%;
+  color: #b0b0b0;
+  font-size: 1rem;
+}
+
+.submit-container {
+  width: 92%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-container .submit-file-ct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #F2FEFC;
+  background-color: #16477F;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  height: 3rem;
+  margin: 1rem 0;
+  transition: 0.5s;
+  padding: 0 16px;
+  width: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+  .map-container .map-medium {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container-contato {
+    margin: 1rem 0;
+  }
+  .map-container .map-big {
+    display: none;
+  }
 }
 
 a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea {
