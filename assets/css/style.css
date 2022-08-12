@@ -187,6 +187,7 @@ h4 {
 .float-box-home1 {
   margin: -26rem 30% 0 30%;
   width: 40%;
+  min-width: 20rem;
   background-color: #0b1731de;
   position: absolute;
   z-index: 999;
@@ -197,7 +198,8 @@ h4 {
   justify-content: center;
 }
 
-.float-box-home1 h1, .float-box-home1 h4 {
+.float-box-home1 h1,
+.float-box-home1 h4 {
   color: #F2FEFC;
   margin-bottom: 1rem;
 }
@@ -237,6 +239,10 @@ h4 {
 }
 
 @media screen and (max-width: 1050px) {
+  .float-box-home1 {
+    margin: -26rem 27.5% 0 27.5%;
+    width: 45%;
+  }
   .float-box-home1 .button-wrapper-home1 .btn-index-sec1 {
     width: 11rem;
   }
@@ -507,30 +513,30 @@ h4 {
   font-weight: bold;
 }
 
-.work-with-us .contato-form-container {
+.work-with-us .home-form-container {
   width: 70%;
   margin: 0 auto 2rem auto;
   display: flex;
   flex-direction: column;
 }
 
-.work-with-us .contato-form-container form {
+.work-with-us .home-form-container .form-home {
   display: flex;
   flex-direction: column;
 }
 
-.work-with-us .contato-form-container form textarea {
+.work-with-us .home-form-container .form-home textarea {
   outline: #d5d4d4 !important;
   border-color: #d5d4d4 !important;
 }
 
-.work-with-us .contato-form-container form div {
+.work-with-us .home-form-container .form-home div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.work-with-us .contato-form-container form div input, .work-with-us .contato-form-container form div select {
+.work-with-us .home-form-container .form-home div input {
   flex-direction: row;
   align-items: center;
   width: 48.5%;
@@ -539,7 +545,87 @@ h4 {
   border: 1px solid #d5d4d4;
 }
 
-.work-with-us .contato-form-container form p {
+.work-with-us .home-form-container .form-home div .custom-select-container {
+  /* The container must be positioned relative: */
+  /* Style the arrow inside the select element: */
+  /* Point the arrow upwards when the select box is open (active): */
+  /* style the items (options), including the selected item: */
+  /* Style items (options): */
+  /* Hide the items when the select box is closed: */
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .custom-select {
+  position: relative;
+  width: 92%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .custom-select input {
+  flex-direction: row;
+  align-items: center;
+  width: 48.5%;
+  height: 2.4rem;
+  margin-bottom: 8px;
+  border: 1px solid #d5d4d4;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .custom-select select {
+  display: none;
+  /*hide original SELECT element: */
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-selected {
+  height: 1.2rem;
+  margin: 4px 0;
+  background-color: #FFFFFF;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 18px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #0C88D1 transparent transparent transparent;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-items div,
+.work-with-us .home-form-container .form-home div .custom-select-container .select-selected {
+  color: #b0b0b0;
+  padding: 8px 9px;
+  border: 1px solid #d5d4d4;
+  border-color: #d5d4d4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-items {
+  position: absolute;
+  background-color: #FFFFFF;
+  margin: 4px 0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-hide {
+  display: none;
+}
+
+.work-with-us .home-form-container .form-home div .custom-select-container .select-items div:hover,
+.work-with-us .home-form-container .form-home div .custom-select-container .same-as-selected {
+  background-color: rgba(204, 204, 204, 0.1);
+}
+
+.work-with-us .home-form-container .form-home p {
   margin-top: 1rem;
   font-size: 0.75rem;
   font-weight: 600;
@@ -558,7 +644,12 @@ h4 {
   bottom: 2rem;
 }
 
-#hosp::placeholder, #nome::placeholder, #cidade::placeholder, #estado::placeholder, #email::placeholder, #tel::placeholder {
+#hosp::placeholder,
+#nome::placeholder,
+#cidade::placeholder,
+#estado::placeholder,
+#email::placeholder,
+#tel::placeholder {
   padding: 0 0 0 5%;
 }
 
@@ -570,7 +661,8 @@ h4 {
   margin: 1.2rem 0 2.5rem 0;
 }
 
-input[type="file"], input[type="submit"] {
+input[type="file"],
+input[type="submit"] {
   display: none;
 }
 
@@ -676,7 +768,7 @@ input[type="file"], input[type="submit"] {
 .quem-somos-content .container-1 p {
   margin-left: 7.5%;
   width: 38%;
-  line-height: 1.4;
+  line-height: 1.8;
   font-size: 1rem;
   color: #16477F;
   hyphens: auto;
@@ -703,7 +795,7 @@ input[type="file"], input[type="submit"] {
 .quem-somos-content .container-2 p {
   margin-right: 7.5%;
   width: 38%;
-  line-height: 1.4;
+  line-height: 1.8;
   font-size: 1rem;
   color: #16477F;
   hyphens: auto;
@@ -728,7 +820,6 @@ input[type="file"], input[type="submit"] {
   margin: 0 0 4rem 7.5%;
   height: max-content;
   height: 30rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .quem-somos-content .card-conteiner-quem-somos .card-quem-somos-1 img {
@@ -780,7 +871,6 @@ input[type="file"], input[type="submit"] {
   border-radius: 1rem;
   margin: 0 7.5% 4rem 0;
   height: 30rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .quem-somos-content .card-conteiner-quem-somos .card-quem-somos-2 p {
@@ -1046,8 +1136,7 @@ input[type="file"], input[type="submit"] {
   border-radius: 1rem;
   margin: 0 0 4rem 7.5%;
   height: max-content;
-  height: 27rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  height: 27.5rem;
 }
 
 .page-servicos-content .card-conteiner-servicos .card-servicos-1 ul {
@@ -1057,7 +1146,7 @@ input[type="file"], input[type="submit"] {
 .page-servicos-content .card-conteiner-servicos .card-servicos-1 ul li {
   margin: 1rem auto;
   width: 90%;
-  line-height: 1.4;
+  line-height: 1.35;
   font-size: 1.2rem;
   color: #16477F;
   hyphens: auto;
@@ -1103,8 +1192,7 @@ input[type="file"], input[type="submit"] {
   color: #FFFFFF;
   border-radius: 1rem;
   margin: 0 7.5% 4rem 0;
-  height: 27rem;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  height: 27.5rem;
 }
 
 .page-servicos-content .card-conteiner-servicos .card-servicos-2 ul {
@@ -1114,7 +1202,7 @@ input[type="file"], input[type="submit"] {
 .page-servicos-content .card-conteiner-servicos .card-servicos-2 ul li {
   margin: 1rem auto;
   width: 90%;
-  line-height: 1.4;
+  line-height: 1.35;
   font-size: 1.2rem;
   color: #FFFFFF;
   hyphens: auto;

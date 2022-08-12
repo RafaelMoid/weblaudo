@@ -49,9 +49,10 @@
         <input type="text" name="endereco" id="endereco-ct" placeholder="Endereço">
         <div class="custom-select">
           <select id="tipo-mensagem" name="Tipo de Mensagem">
-            <option value="1">Tipo de mensagem 1</option>
-            <option value="2">Tipo de mensagem 2</option>
-            <option value="3">Tipo de mensagem 3</option>
+            <option value="1">Fale conosco</option>
+            <option value="1">Fale conosco</option>
+            <option value="2">Comercial</option>
+            <option value="3">Direção</option>
           </select>
         </div>
       <textarea type="text" name="mensagem" id="mensagem-ct" placeholder="Mensagem" rows="8"></textarea>
