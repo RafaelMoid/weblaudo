@@ -7,6 +7,24 @@
     flex-wrap: wrap;
     width: 100%;
 
+    .container-banner-contato {
+      .banner-title {
+        display: flex;
+        width: 100%;
+        height: 7rem;
+        background-color: $azul-medio;
+  
+        h1 {
+          align-items: baseline;
+          color: $branco;
+          margin: auto 0 auto 2.2rem;
+          font-size: 2.5rem;
+          font-weight: 500;
+        }
+  
+      }
+    }
+
     .content-blog-container {
       display: flex;
       flex-direction: row;

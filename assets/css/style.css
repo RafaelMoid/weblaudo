@@ -704,6 +704,21 @@ main.inicio .submit-file {
   width: 100%;
 }
 
+.home .posts-container .container-banner-contato .banner-title {
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background-color: #3BA6DE;
+}
+
+.home .posts-container .container-banner-contato .banner-title h1 {
+  align-items: baseline;
+  color: #F2FEFC;
+  margin: auto 0 auto 2.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
 .home .posts-container .content-blog-container {
   display: flex;
   flex-direction: row;
@@ -1101,22 +1116,22 @@ main.inicio .submit-file {
   }
 }
 
-.nav-container {
+main.servicos .nav-container {
   position: relative;
 }
 
-.nav-ul {
+main.servicos .nav-ul {
   background-color: #F2FEFC;
 }
 
-.container-banner-servicos .banner-title {
+main.servicos .container-banner-servicos .banner-title {
   display: flex;
   width: 100%;
   height: 7rem;
   background-color: #3BA6DE;
 }
 
-.container-banner-servicos .banner-title h1 {
+main.servicos .container-banner-servicos .banner-title h1 {
   align-items: baseline;
   color: #F2FEFC;
   margin: auto 0 auto 2.2rem;
@@ -1124,18 +1139,18 @@ main.inicio .submit-file {
   font-weight: 500;
 }
 
-.container-banner-servicos img {
+main.servicos .container-banner-servicos img {
   width: 100%;
 }
 
-.container-banner-servicos .banner-servicos {
+main.servicos .container-banner-servicos .banner-servicos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.container-banner-servicos .banner-servicos div {
+main.servicos .container-banner-servicos .banner-servicos div {
   margin: -35% 0 0 -15%;
   color: #F2FEFC;
   display: flex;
@@ -1144,13 +1159,13 @@ main.inicio .submit-file {
   line-height: 1.4;
 }
 
-.container-banner-servicos .banner-servicos div h1 {
+main.servicos .container-banner-servicos .banner-servicos div h1 {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1.8rem;
 }
 
-.container-banner-servicos .banner-servicos div h2 {
+main.servicos .container-banner-servicos .banner-servicos div h2 {
   font-weight: 500;
   text-transform: uppercase;
   font-weight: bold;
@@ -1159,44 +1174,44 @@ main.inicio .submit-file {
   font-size: 1.8rem;
 }
 
-.container-banner-servicos .banner-servicos h3 {
+main.servicos .container-banner-servicos .banner-servicos h3 {
   color: #F2FEFC;
   font-size: 1.8rem;
   margin: 8px 0 0 15%;
 }
 
-.container-banner-servicos .servicos-line {
+main.servicos .container-banner-servicos .servicos-line {
   border: solid 2px #16477F;
 }
 
-.addon-card-servicos {
+main.servicos .addon-card-servicos {
   margin-top: 3.5%;
 }
 
 @media screen and (min-width: 1150px) {
-  .container-banner-servicos .banner-title {
+  main.servicos .container-banner-servicos .banner-title {
     display: flex;
     width: 100%;
     height: 7rem;
     background-color: #3BA6DE;
   }
-  .container-banner-servicos .banner-title h1 {
+  main.servicos .container-banner-servicos .banner-title h1 {
     align-items: baseline;
     color: #F2FEFC;
     margin: auto 0 auto 2.2rem;
     font-size: 2.5rem;
     font-weight: 500;
   }
-  .container-banner-servicos img {
+  main.servicos .container-banner-servicos img {
     width: 100%;
   }
-  .container-banner-servicos .banner-servicos {
+  main.servicos .container-banner-servicos .banner-servicos {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .container-banner-servicos .banner-servicos div {
+  main.servicos .container-banner-servicos .banner-servicos div {
     margin: -35% 0 0 -15%;
     color: #F2FEFC;
     display: flex;
@@ -1204,12 +1219,12 @@ main.inicio .submit-file {
     justify-content: center;
     line-height: 1.4;
   }
-  .container-banner-servicos .banner-servicos div h1 {
+  main.servicos .container-banner-servicos .banner-servicos div h1 {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 2.2rem;
   }
-  .container-banner-servicos .banner-servicos div h2 {
+  main.servicos .container-banner-servicos .banner-servicos div h2 {
     font-weight: 500;
     text-transform: uppercase;
     font-weight: bold;
@@ -1217,21 +1232,21 @@ main.inicio .submit-file {
     margin-left: 8px;
     font-size: 2.2rem;
   }
-  .container-banner-servicos .banner-servicos h3 {
+  main.servicos .container-banner-servicos .banner-servicos h3 {
     color: #F2FEFC;
     font-size: 2.2rem;
     margin: 8px 0 0 15%;
   }
 }
 
-.container-sub-content-servicos {
+main.servicos .container-sub-content-servicos {
   margin-top: -8px;
   background-color: #3BA6DE;
   display: flex;
   justify-content: center;
 }
 
-.container-sub-content-servicos p {
+main.servicos .container-sub-content-servicos p {
   font-size: 1.4rem;
   color: #F7F7F7;
   width: 90%;
@@ -1243,27 +1258,27 @@ main.inicio .submit-file {
   line-height: 1.4;
 }
 
-.page-servicos-content {
+main.servicos .page-servicos-content {
   display: flex;
   flex-direction: column;
   background-color: #F7F7F7;
 }
 
-.page-servicos-content .container-1 {
+main.servicos .page-servicos-content .container-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.page-servicos-content .container-1 img {
+main.servicos .page-servicos-content .container-1 img {
   width: 42%;
   height: 100%;
   border-radius: 16px;
   margin-right: 7.5%;
 }
 
-.page-servicos-content .container-1 p {
+main.servicos .page-servicos-content .container-1 p {
   margin-left: 7.5%;
   width: 38%;
   line-height: 1.4;
@@ -1274,7 +1289,7 @@ main.inicio .submit-file {
   font-weight: 600;
 }
 
-.page-servicos-content .container-2 {
+main.servicos .page-servicos-content .container-2 {
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -1283,14 +1298,14 @@ main.inicio .submit-file {
   margin-bottom: 3rem;
 }
 
-.page-servicos-content .container-2 img {
+main.servicos .page-servicos-content .container-2 img {
   width: 42%;
   height: 100%;
   border-radius: 16px;
   margin-left: 7.5%;
 }
 
-.page-servicos-content .container-2 p {
+main.servicos .page-servicos-content .container-2 p {
   margin-right: 7.5%;
   width: 38%;
   line-height: 1.4;
@@ -1301,14 +1316,14 @@ main.inicio .submit-file {
   font-weight: 600;
 }
 
-.page-servicos-content .card-conteiner-servicos {
+main.servicos .page-servicos-content .card-conteiner-servicos {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   align-items: center;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 {
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
@@ -1319,11 +1334,11 @@ main.inicio .submit-file {
   height: 27.5rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 ul {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 ul {
   margin-left: 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 ul li {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 ul li {
   margin: 1rem auto;
   width: 90%;
   line-height: 1.35;
@@ -1333,30 +1348,30 @@ main.inicio .submit-file {
   font-weight: 600;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 ul li::before {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 ul li::before {
   margin-right: 4px;
   content: "\25CF";
   border-radius: 10rem;
   font-size: 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos {
   display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
   margin: 1.2rem 0 0.4rem 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos h2 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos h2 {
   font-size: 2rem;
   color: #16477F;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos .como-h2 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos .como-h2 {
   margin-left: 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos .como-funciona-line {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 .text-container-somos .como-funciona-line {
   display: flex;
   height: 1.2rem;
   width: 100%;
@@ -1364,7 +1379,7 @@ main.inicio .submit-file {
   margin-left: 8px;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 {
   display: flex;
   flex-direction: column;
   background-color: #16477F;
@@ -1375,11 +1390,11 @@ main.inicio .submit-file {
   height: 27.5rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 ul {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 ul {
   margin-left: 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 ul li {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 ul li {
   margin: 1rem auto;
   width: 90%;
   line-height: 1.35;
@@ -1389,26 +1404,26 @@ main.inicio .submit-file {
   font-weight: 600;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 ul li::before {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 ul li::before {
   margin-right: 4px;
   content: "\25CF";
   border-radius: 10rem;
   font-size: 1rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos {
   display: flex;
   flex-direction: row;
   background-color: #16477F;
   margin: 1.2rem 0 0.4rem 2rem;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos h2 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos h2 {
   font-size: 2rem;
   color: #FFFFFF;
 }
 
-.page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos .como-funciona-line-2 {
+main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 .text-container-somos .como-funciona-line-2 {
   display: flex;
   height: 1.2rem;
   width: 100%;
@@ -1416,34 +1431,34 @@ main.inicio .submit-file {
   margin-left: 8px;
 }
 
-.strong-h2 {
+main.servicos .strong-h2 {
   font-weight: bold;
   margin-left: 8px;
 }
 
 @media screen and (max-width: 958px) {
-  .container-banner-servicos .banner-servicos h1 {
+  main.servicos .container-banner-servicos .banner-servicos h1 {
     font-size: 1.5rem;
   }
-  .page-servicos-content .card-conteiner-servicos .card-servicos-1 {
+  main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-1 {
     height: 35.5rem;
   }
-  .page-servicos-content .card-conteiner-servicos .card-servicos-2 {
+  main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 {
     height: 35.5rem;
   }
 }
 
-.addon-servicos {
+main.servicos .addon-servicos {
   margin: 0 auto 0 auto;
   height: 25rem;
   padding: 0;
 }
 
-.addon-servicos ul {
+main.servicos .addon-servicos ul {
   padding: 2rem;
 }
 
-.addon-servicos .servicos-divider-2 {
+main.servicos .addon-servicos .servicos-divider-2 {
   margin-top: 0;
 }
 
