@@ -1,35 +1,36 @@
-.nav-container {
-  position: relative;
-}
-
-.nav-ul {
-  background-color: $branco;
-}
-
-.container-banner-contato {
-
-  .banner-title {  
-    display: flex;
-    width: 100%;
-    height: 7rem;
-    background-color:$azul-medio;
-
-    h1{
-      align-items: baseline;
-      color: $branco;
-      margin: auto 0 auto 2.2rem;
-      font-size: 2.5rem;
-      font-weight: 500;
-    }
+main.contato {
+  .nav-container {
+    position: relative;
   }
 
-}
+  .nav-ul {
+    background-color: $branco;
+  }
 
-.container-contato {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1rem 2.5%;
+  .container-banner-contato {
+
+    .banner-title {
+      display: flex;
+      width: 100%;
+      height: 7rem;
+      background-color: $azul-medio;
+
+      h1 {
+        align-items: baseline;
+        color: $branco;
+        margin: auto 0 auto 2.2rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+    }
+
+  }
+
+  .container-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 2.5%;
 
     .adress-container {
       margin: 3rem 0 0 1%;
@@ -39,237 +40,253 @@
         margin-bottom: 1.5rem;
       }
 
-      h3 , h4 {
-      color: $azul-medio;
-    }
-
-    h3 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      margin-bottom: 1.5rem;
-    }
-
-    h4 {
-      font-size: 1.2rem;
-      font-weight: 600;
-    }
-
-    p {
-      color: $azul-medio2;  
-      font-weight: 500;
-      font-size: 1rem;    
-      line-height: 1.4;
-    }
-    
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .funcionamento-container {
+      h3,
       h4 {
-        font-size: 1rem;
-      }
-    }
-
-    .fone-container , .comercial-container {
-      h5{
-        color: $azul-medio2;  
-        font-size: 1.1rem;
-        font-weight: 600;
-        line-height: 1.4;
-        margin: 4px 0;
-      }
-
-      a {
-        margin: 4px 0;
-        text-decoration: none; 
-        font-size: 1rem;
         color: $azul-medio;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+      }
+
+      h4 {
+        font-size: 1.2rem;
         font-weight: 600;
       }
-    }
 
-  }
-
-  .map-container {
-    margin: 3rem 1rem;
-    border: solid 1px $cinza-claro;
-  }
-
-  .contato-form-container {
-    display: flex; 
-    flex-direction: column;
-    // justify-content:end;
-    width: 30%;    
-    align-items: center;
-    margin: 3rem 0 0 0;
-
-    h4 {
-      justify-content:start;
-      color: $azul-medio2;  
-      font-weight: bold;
-      font-size: 1rem;    
-      line-height: 1.4;
-    }
-
-    form {
-      display: flex; 
-      flex-direction: column;
-      justify-content:end;
-      width: 100%;
-      align-items: center;
-      margin: 1rem 0 0 0;
-
-      input {
-        width: 90%;
-        height: 2rem;
-        margin: 4px 0;
-        border: 1px solid $cinza-claro;
-        border-radius: 6px;
+      p {
+        color: $azul-medio2;
+        font-weight: 500;
         font-size: 1rem;
+        line-height: 1.4;
       }
 
-      // select {
-      //   width: 60%;
-      //   margin: 4px 0;
-      //   height: 2rem;
-      // }
 
-
-
-      /* The container must be positioned relative: */
-.custom-select {
-  position: relative;
-  width: 92%;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-.custom-select select {
-  display: none; /*hide original SELECT element: */
-}
-
-.select-selected {
-  height: 1.2rem;
-  margin: 4px 0;
-  background-color: $icons-white;
-}
-
-/* Style the arrow inside the select element: */
-.select-selected:after {
-  position: absolute;
-  content: "";
-  top: 18px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: $azul-botao transparent transparent transparent;
-}
-
-/* Point the arrow upwards when the select box is open (active): */
-.select-selected.select-arrow-active:after {
-  border-color: transparent transparent #fff transparent;
-  top: 7px;
-}
-
-/* style the items (options), including the selected item: */
-.select-items div,.select-selected {
-  color: $cinza;
-  padding: 8px 9px;
-  border: 1px solid $cinza-claro;
-  border-color: $cinza-claro;  
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* Style items (options): */
-.select-items {
-  position: absolute;
-  background-color: $icons-white;
-  margin: 4px 0;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
-
-/* Hide the items when the select box is closed: */
-.select-hide {
-  display: none;
-}
-
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(204, 204, 204, 0.1);
-}
-
-      textarea {
-        width: 90%;
-        margin: 4px 0;
-        outline: $cinza-claro !important;
-        border-color: $cinza-claro !important;
+      form {
+        display: flex;
+        flex-direction: column;
       }
 
-      select {
-        option {
-          margin: 4px 0;
+      .funcionamento-container {
+        h4 {
+          font-size: 1rem;
         }
       }
-  
-      #nome-ct::placeholder, #email-ct::placeholder, #tel-ct::placeholder, #endereco-ct::placeholder,   {
-        padding: 2.5% 2.5% 0 2.5%;
-        color: $cinza;
+
+      .fone-container,
+      .comercial-container {
+        h5 {
+          color: $azul-medio2;
+          font-size: 1.1rem;
+          font-weight: 600;
+          line-height: 1.4;
+          margin: 4px 0;
+        }
+
+        a {
+          margin: 4px 0;
+          text-decoration: none;
+          font-size: 1rem;
+          color: $azul-medio;
+          font-weight: 600;
+        }
       }
-  
-      #mensagem-ct::placeholder  {
-        padding: 2.5% 2.5% 0 2.5%;
-        color: $cinza;
+
+    }
+
+    .map-container {
+      margin: 3rem 1rem;
+      border: solid 1px $cinza-claro;
+    }
+
+    .contato-form-container {
+      display: flex;
+      flex-direction: column;
+      // justify-content:end;
+      width: 30%;
+      align-items: center;
+      margin: 3rem 0 0 0;
+
+      h4 {
+        justify-content: start;
+        color: $azul-medio2;
+        font-weight: bold;
         font-size: 1rem;
+        line-height: 1.4;
       }
 
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        align-items: center;
+        margin: 1rem 0 0 0;
+
+        input {
+          width: 90%;
+          height: 2rem;
+          margin: 4px 0;
+          border: 1px solid $cinza-claro;
+          border-radius: 6px;
+          font-size: 1rem;
+        }
+
+        // select {
+        //   width: 60%;
+        //   margin: 4px 0;
+        //   height: 2rem;
+        // }
+
+
+
+        /* The container must be positioned relative: */
+        .custom-select {
+          position: relative;
+          width: 92%;
+          font-family: 'Titillium Web', sans-serif;
+        }
+
+        .custom-select select {
+          display: none;
+          /*hide original SELECT element: */
+        }
+
+        .select-selected {
+          height: 1.2rem;
+          margin: 4px 0;
+          background-color: $icons-white;
+        }
+
+        /* Style the arrow inside the select element: */
+        .select-selected:after {
+          position: absolute;
+          content: "";
+          top: 18px;
+          right: 10px;
+          width: 0;
+          height: 0;
+          border: 6px solid transparent;
+          border-color: $azul-botao transparent transparent transparent;
+        }
+
+        /* Point the arrow upwards when the select box is open (active): */
+        .select-selected.select-arrow-active:after {
+          border-color: transparent transparent #fff transparent;
+          top: 7px;
+        }
+
+        /* style the items (options), including the selected item: */
+        .select-items div,
+        .select-selected {
+          color: $cinza;
+          padding: 8px 9px;
+          border: 1px solid $cinza-claro;
+          border-color: $cinza-claro;
+          border-radius: 6px;
+          cursor: pointer;
+        }
+
+        /* Style items (options): */
+        .select-items {
+          position: absolute;
+          background-color: $icons-white;
+          margin: 4px 0;
+          top: 100%;
+          left: 0;
+          right: 0;
+          z-index: 99;
+        }
+
+        /* Hide the items when the select box is closed: */
+        .select-hide {
+          display: none;
+        }
+
+        .select-items div:hover,
+        .same-as-selected {
+          background-color: rgba(204, 204, 204, 0.1);
+        }
+
+        textarea {
+          width: 90%;
+          margin: 4px 0;
+          outline: $cinza-claro !important;
+          border-color: $cinza-claro !important;
+        }
+
+        select {
+          option {
+            margin: 4px 0;
+          }
+        }
+
+        #nome-ct::placeholder,
+        #email-ct::placeholder,
+        #tel-ct::placeholder,
+        #endereco-ct::placeholder,
+          {
+          padding: 2.5% 2.5% 0 2.5%;
+          color: $cinza;
+        }
+
+        #mensagem-ct::placeholder {
+          padding: 2.5% 2.5% 0 2.5%;
+          color: $cinza;
+          font-size: 1rem;
+        }
+
+      }
     }
+
   }
 
-}
-.submit-container{
-  width: 92%;
-  display: flex;
-  justify-content: flex-end;
-  .submit-file-ct {
+  .submit-container {
+    width: 92%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    color: $branco;
-    background-color: $azul-medio2;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bold;
-    height: 3rem;
-    margin: 1rem 0;
-    transition: 0.5s;
-    padding: 0 16px;
-    width: 50%;
-  }
-}
+    justify-content: flex-end;
 
-@media screen and (min-width: 1200px){
-  .map-container {
-    .map-medium{
-      display: none;
+    .submit-file-ct {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: $branco;
+      background-color: $azul-medio2;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: bold;
+      height: 3rem;
+      margin: 1rem 0;
+      transition: 0.5s;
+      padding: 0 16px;
+      width: 50%;
     }
-  } 
-}
-
-@media screen and (max-width: 1199px){
-  .container-contato {
-    margin: 1rem 0;
-  }
-  .map-container {
-    .map-big{
+    #submit-ct {
       display: none;
     }
   }
 
+  @media screen and (min-width: 1200px) {
+    .map-container {
+      .map-medium {
+        display: none;
+      }
+    }
+  }
 
+  @media screen and (max-width: 1199px) {
+    .container-contato {
+      margin: 1rem 0;
+    }
+
+    .map-container {
+      .map-big {
+        display: none;
+      }
+    }
+
+
+  }
 }
