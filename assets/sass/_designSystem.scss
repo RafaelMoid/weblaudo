@@ -18,12 +18,12 @@ $cinza-borda: #EFEFEF;
 
 
 //Fonts Config
-a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea{
+a, p, h1, h2, h3, h4, h5, h6, li,  input, select, textarea, span{
    font-family: 'Titillium Web', sans-serif;
 }
 
-a, p, h5, h6, li {
-    font-size: 0.9rem;
+a, p, h5, h6, li , span{
+    font-size: 1rem;
 }
 
 h1 {
