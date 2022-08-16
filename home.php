@@ -16,9 +16,10 @@
             <h2 class="thumb-title-banco">
               <a  href="<?php the_permalink(); ?>" ?><?php the_title(); ?></a>
             </h2>
-            <p class="thumb-title-banco">
-              <a  href="<?php the_permalink(); ?>" ?>SAIBA MAIS</a>
-            </p>
+            <h6 class="excerpt-banco"><?php the_excerpt(); ?></h6>
+            <h6 class="saiba-mais-banco">
+              <a  class="saiba-mais-banco-a" href="<?php the_permalink(); ?>" ?>SAIBA MAIS</a>
+            </h6>
           </article>
         <?php endwhile; ?>
 
@@ -45,7 +46,7 @@
           </ul>
         </div>
         <div class="mais-vistas-container">
-          <h4 classe="h4-aside-config">MAIS VISTAS</h4>
+          <h4 class="h4-aside-config">MAIS VISTAS</h4>
           <ul class="categorias-lista-2">
             <li class="li-lista-2">
               <?php $args = array(

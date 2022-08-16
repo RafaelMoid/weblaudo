@@ -733,10 +733,16 @@ input[type="submit"] {
 .posts-container .content-blog-container .content-blog-section .content-blog-article .thumb-title-banco {
   display: flex;
   justify-content: flex-start;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0.5rem 0 4px 0;
 }
 
 .posts-container .content-blog-container .content-blog-section .content-blog-article .thumb-title-banco a {
   width: 100%;
+  height: fit-content;
   font-size: 1.4rem;
   text-decoration: none;
   color: #16477F;
@@ -747,10 +753,36 @@ input[type="submit"] {
   color: #16477F;
 }
 
+.posts-container .content-blog-container .content-blog-section .content-blog-article .excerpt-banco {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin-bottom: 4px;
+}
+
+.posts-container .content-blog-container .content-blog-section .content-blog-article .saiba-mais-banco {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.posts-container .content-blog-container .content-blog-section .content-blog-article .saiba-mais-banco .saiba-mais-banco-a {
+  width: 100%;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #3BA6DE;
+  font-weight: bold;
+}
+
+.posts-container .content-blog-container .content-blog-section .content-blog-article .saiba-mais-banco .saiba-mais-banco-a:visited {
+  color: #3BA6DE;
+}
+
 .posts-container .content-blog-container .aside-container {
   background-color: #F7F7F7;
   flex-wrap: wrap;
-  padding: 0 1.5%;
+  padding: 0 1.5% 1.5% 1.5%;
   border-radius: 12px;
   height: fit-content;
 }
@@ -783,15 +815,14 @@ input[type="submit"] {
 
 .posts-container .content-blog-container .mais-vistas-container {
   margin-top: 2rem;
-  color: #53CBF4;
 }
 
 .posts-container .content-blog-container .mais-vistas-container .h4-aside-config {
-  color: #53CBF4;
+  color: #53CBF4 !important;
   border-bottom: 0px;
 }
 
-.posts-container .content-blog-container .mais-vistas-container ul li a {
+.posts-container .content-blog-container .mais-vistas-container ul .li-lista-2 a {
   border-bottom: 0px;
 }
 

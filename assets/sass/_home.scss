@@ -24,6 +24,7 @@
       .content-blog-article {
         flex-wrap:wrap;
         width: 50%;
+
         .thumb-post-banco {
           flex-wrap:wrap;
           width: 90%;
@@ -31,9 +32,15 @@
         .thumb-title-banco {
           display: flex;
           justify-content: flex-start;
+          max-width: 90%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin: 0.5rem 0 4px 0;
 
           a {
             width: 100%;
+            height: fit-content;
             font-size: 1.4rem;
             text-decoration: none;
             color: $azul-medio2;
@@ -43,13 +50,39 @@
             color: $azul-medio2;
           }
         }
+        
+        .excerpt-banco {
+          display: flex;
+          justify-content: flex-start;
+          width: 90%;
+          margin-bottom: 4px;
+
+        }
+        
+        .saiba-mais-banco {
+          display: flex;
+          justify-content: flex-start;
+          height: 100%;
+          width: 100%;
+
+          .saiba-mais-banco-a {
+            width: 100%;
+            font-size: 0.7rem;
+            text-decoration: none;
+            color: $azul-medio;
+            font-weight: bold;
+          }
+          .saiba-mais-banco-a:visited {
+            color: $azul-medio;
+          }
+        }
       }
     }
 
     .aside-container {
       background-color: $branco-trabalhe-conosco;
       flex-wrap: wrap;
-      padding: 0 1.5%;
+      padding: 0 1.5% 1.5% 1.5%;
       border-radius: 12px;
       height: fit-content;
 
@@ -91,16 +124,15 @@
 
     .mais-vistas-container {
       margin-top: 2rem;
-      color: $azul-claro;
 
       .h4-aside-config {
-        color: $azul-claro;
+        color: $azul-claro !important;
         border-bottom: 0px;
 
       }
 
       ul {
-        li {
+        .li-lista-2 {
           a {
             border-bottom: 0px;
           }
