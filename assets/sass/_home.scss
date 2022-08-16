@@ -1,0 +1,112 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  background-color: $cinza-borda;
+  flex-wrap:wrap;
+  width: fit-content;
+
+  .content-blog-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    // background-color: green;
+    justify-content: space-between;
+    margin: 2rem auto;
+    height: auto;
+
+
+    .content-blog-section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      width: fit-content;
+      justify-content: space-around;
+      .content-blog-article {
+        flex-wrap:wrap;
+        width: 50%;
+        .thumb-post-banco {
+          flex-wrap:wrap;
+          width: 90%;
+        }
+        .thumb-title-banco {
+          display: flex;
+          justify-content: flex-start;
+
+          a {
+            width: 100%;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: $azul-medio2;
+            font-weight: bold;
+          }
+          a:visited {
+            color: $azul-medio2;
+          }
+        }
+      }
+    }
+
+    .aside-container {
+      background-color: $branco-trabalhe-conosco;
+      flex-wrap: wrap;
+      padding: 0 1.5%;
+      border-radius: 12px;
+      height: fit-content;
+
+      div {
+        div {
+          h4 {
+            margin-left: 8px;
+            padding-top: 1.2rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: $azul-medio2;
+          }
+
+          .linha-aside {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            border: 1px solid $azul-medio;
+            margin: 8px 0;
+          }
+
+          ul {
+            li {
+
+              a {
+                border-bottom: 1px solid $cinza-claro;
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: bold;
+                color: $azul-medio2;
+                margin: 12px 0 0 8px;
+                height: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mais-vistas-container {
+      margin-top: 2rem;
+      color: $azul-claro;
+
+      .h4-aside-config {
+        color: $azul-claro;
+        border-bottom: 0px;
+
+      }
+
+      ul {
+        li {
+          a {
+            border-bottom: 0px;
+          }
+        }
+      }
+    }
+
+  }
+}
