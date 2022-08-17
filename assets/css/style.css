@@ -122,6 +122,15 @@ h4 {
   margin: 0 auto;
 }
 
+.nav-ul li a {
+  font-size: 1rem;
+  color: #16477F;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
 .nav-ul .logo-weblaudo {
   max-width: 10rem;
   margin: 0 5% 0 5%;
@@ -1445,6 +1454,80 @@ main.servicos .strong-h2 {
   }
   main.servicos .page-servicos-content .card-conteiner-servicos .card-servicos-2 {
     height: 35.5rem;
+  }
+  main.servicos .page-servicos-content .servicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7rem;
+    background-color: #E6F4F8;
+    margin: -7rem 0 -7rem 0;
+    height: 42rem;
+  }
+  main.servicos .page-servicos-content .servicos h1 {
+    text-align: center;
+    color: #3BA6DE;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  main.servicos .page-servicos-content .servicos h4 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  main.servicos .page-servicos-content .servicos h4 strong {
+    font-weight: bold;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-content ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-content ul li {
+    width: 18%;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-content ul li img {
+    margin-bottom: 0.5rem;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-content ul li h5 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-divider {
+    border-bottom: 0.2rem #3BA6DE solid;
+    margin: 2rem 47% 2rem 47%;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-divider-2 {
+    border-bottom: 0.2rem #3BA6DE solid;
+    margin: 3rem 47% 1.6rem 47%;
+  }
+  main.servicos .page-servicos-content .servicos .servicos-p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  main.servicos .page-servicos-content .servicos .btn-contato-orange {
+    display: flex;
+    height: 3.5rem;
+    border-radius: 0.25rem;
+    color: #F2FEFC;
+    font-size: 1.1rem;
+    outline: 0cm;
+    border: transparent;
+    background-color: #3BA6DE;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 40% 2rem 40%;
+    letter-spacing: 1.5px;
+    font-family: Montserrat;
   }
 }
 

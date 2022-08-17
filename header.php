@@ -31,12 +31,12 @@
             <div class="nav-ul-container">
                 <ul class="nav-ul">
                     <li><img class="logo-weblaudo" alt="Logo weblaudo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Marca-WL.png"/></li>
-                    <li>Inicio</li>
-                    <li>Quem somos</li>
-                    <li>Equipe</li>
-                    <li>Serviços</li>
-                    <li>Banco de casos</li>
-                    <li>Contato</li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=5/">Inicio</a></li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=28/">Quem somos</a></li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=72/">Equipe</a></li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=30/">Serviços</a></li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=35/">Banco de casos</a></li>
+                    <li><a href="<?php bloginfo('url') ?>/?page_id=33/">Contato</a></li>
                     <li><button class="btn-work-with-us">Trabalhe conosco</button></li>
                 </ul>
             </div>

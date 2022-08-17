@@ -38,6 +38,15 @@
     text-transform: uppercase;    
     font-weight: bold; 
     margin: 0 auto;   
+    a {
+      font-size: 1rem;
+      color: $azul-medio2;
+      text-transform: uppercase;    
+      font-weight: bold; 
+      margin: 0 auto;
+      text-decoration: none;   
+
+    }
   }
   
 
