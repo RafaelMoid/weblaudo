@@ -381,17 +381,91 @@ main.servicos {
   }
 
   .addon-servicos {
-    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    background-color: $azul-claro-sec2;
+    margin:0;
     height: 25rem;
-    padding: 0;
 
-    ul {
-      padding: 2rem;
+    h1 {
+      margin-top: 1rem;
+      text-align: center;
+      color: $azul-medio;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    h4 {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+
+    .servicos-content {
+      display: flex;
+      justify-content: space-around;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+        li {
+          width: 18%;
+          margin: 0 auto;
+          line-height: 1.2;
+          font-weight: 600;
+
+          img {
+            margin-bottom: 0.5rem;
+          }
+
+          h5 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+        }
+
+      }
+    }
+    
+    .servicos-divider {
+      border-bottom: 0.2rem $azul-medio solid;
+      margin: 2rem 47% 2rem 47%;
     }
 
     .servicos-divider-2 {
-      margin-top: 0;
+      border-bottom: 0.2rem $azul-medio solid;
+      margin: 3rem 47% 1.6rem 47%;
     }
 
+    .servicos-p {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .btn-contato-orange {
+      display: flex;
+      height: 3.5rem;
+      border-radius: 0.25rem;
+      color: $branco;
+      font-size: 1.1rem;
+      outline: 0cm;
+      border: transparent;
+      background-color: $azul-medio;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      margin: 1.5rem 40% 2rem 40%;
+      letter-spacing: 1.5px;
+      font-family: Montserrat;
+    }
   }
 }
