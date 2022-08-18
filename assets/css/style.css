@@ -462,7 +462,7 @@ main.inicio .faq .accordion .accordion-item .accordion-item-body {
   display: none;
   color: #16477F;
   margin: 2.5% 5% 0 0;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 main.inicio .faq .active .accordion-item .accordion-item-body {

@@ -45,7 +45,7 @@
                         <p>Sala 2510 e 2511, Torre C</p>
                         <p>Pina - Recife - PE</p>
                         <p>CEP 51110-160</p>
-                        <p>Telefone: (81) 3204-3011</p>
+                        <p>Telefone: (81) 3299-1925</p>
                         <p class="sec-2-email">E-mail: <a href=""> atendimento@weblaudo.com.br</a></p>
                     <div class="social-icons">
                         <a href="https://www.instagram.com/weblaudo/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/instagram.png" alt="link instagram" class="social-icon"></a>
@@ -55,7 +55,7 @@
                 </section>
             </div>
             <div class="footer-section-3">
-                <p>WEBLAUDO DIAGNOSTICOS POR IMAGEM LTDA - CNPJ 00.000.000/0001-00 &copy; </p>
+                <p>WEBLAUDO DIAGNOSTICOS POR IMAGEM LTDA - CNPJ 13.761.816/0001-80 © </p>
                 <div class="logo-box">
                     <p>DESENVOLVIDO POR</p>
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JAZZZ.png" alt="Logo da Jazz">
