@@ -1811,6 +1811,66 @@ main.contato .submit-container #submit-ct {
   }
 }
 
+main.equipe {
+  width: 100%;
+}
+
+main.equipe .posts-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main.equipe .posts-container .container-banner-equipe .banner-title {
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  background-color: #3BA6DE;
+}
+
+main.equipe .posts-container .container-banner-equipe .banner-title h1 {
+  align-items: baseline;
+  color: #F2FEFC;
+  margin: auto 0 auto 2.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+main.equipe .posts-container .container-banner-equipe .banner-equipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main.equipe .posts-container .container-banner-equipe .banner-equipe img {
+  width: 100%;
+}
+
+main.equipe .posts-container .container-banner-equipe .banner-equipe h1 {
+  color: #F2FEFC;
+  margin: -20% auto 0 auto;
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+main.equipe .posts-container section.equipe-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: space-around;
+  margin-top: 8rem;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article {
+  flex-wrap: wrap;
+  width: 50%;
+}
+
 a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
   font-family: 'Titillium Web', sans-serif;
 }

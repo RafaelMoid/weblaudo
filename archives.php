@@ -8,19 +8,32 @@ get_header(); ?>
 	<div id="content" role="main">
 
 		<?php the_post(); ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-		
-		<?php get_search_form(); ?>
-		
-		<h2>Archives by Month:</h2>
-		<ul>
-			<?php wp_get_archives('type=monthly'); ?>
-		</ul>
-		
-		<h2>Archives by Subject:</h2>
-		<ul>
-			 <?php wp_list_categories(); ?>
-		</ul>
+		<h1 class="entry-title">Equipe WebLaudo</h1>
+
+		<!-- <?php get_search_form(); ?> -->
+
+		<h2>Testando o retorno</h2>
+			<?php
+			$args = array(
+				'post_type'   => 'equipe',
+				'order'       => 'ASC',
+				'orderby'     => 'title'
+			);
+			$equipe = get_posts($args);
+
+			if ($equipe) : ?>
+				<ul>
+					<?php foreach ($equipe as $colaborador) : setup_postdata($colaborador); ?>
+						<li>
+							<div>
+								
+								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							</div>
+						</li>
+					<?php endforeach;
+					wp_reset_postdata(); ?>
+				</ul>
+			<?php endif; ?>
 
 	</div><!-- #content -->
 </div><!-- #container -->

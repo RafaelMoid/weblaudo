@@ -8,9 +8,10 @@ add_theme_support ( 'post-thumbnails' );
 
 function custom_post_type_equipe() {
 	register_post_type('equipe', array(
-		'label' => 'Equipe',
+		'label' => 'equipe',
 		'description' => 'Equipe',
-		'public' => true,
+		'public' => true,		
+		'has_archive' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
 		'capability_type' => 'post',
