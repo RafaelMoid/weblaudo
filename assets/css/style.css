@@ -1909,6 +1909,7 @@ main.equipe .posts-container section.equipe-content article.content-blog-article
   border-radius: 18px;
   margin: 1rem 0 1rem 1rem;
   padding: 0.5rem;
+  background-color: transparent;
 }
 
 main.equipe .posts-container section.equipe-content article.content-blog-article button > a {
