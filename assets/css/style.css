@@ -1823,6 +1823,10 @@ main.equipe .posts-container {
   width: 100%;
 }
 
+main.equipe .posts-container .container-banner-equipe {
+  margin-bottom: 21%;
+}
+
 main.equipe .posts-container .container-banner-equipe .banner-title {
   display: flex;
   width: 100%;
@@ -1851,7 +1855,7 @@ main.equipe .posts-container .container-banner-equipe .banner-equipe img {
 
 main.equipe .posts-container .container-banner-equipe .banner-equipe h1 {
   color: #F2FEFC;
-  margin: -20% auto 0 auto;
+  margin: -21% auto 0 auto;
   font-size: 2.4rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -1862,13 +1866,74 @@ main.equipe .posts-container section.equipe-content {
   flex-direction: row;
   flex-wrap: wrap;
   width: fit-content;
-  justify-content: space-around;
-  margin-top: 8rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
 main.equipe .posts-container section.equipe-content article.content-blog-article {
   flex-wrap: wrap;
-  width: 50%;
+  width: 30%;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article h2 {
+  margin: 0.5rem 0 0  1rem;
+  line-height: 20px;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article h2 > a {
+  color: #16477F;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article h6 {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article button {
+  width: 45%;
+  border: solid 2px #53CBF4;
+  border-radius: 18px;
+  margin: 1rem 0 1rem 1rem;
+  padding: 0.5rem;
+}
+
+main.equipe .posts-container section.equipe-content article.content-blog-article button > a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #53CBF4;
+  font-weight: bold;
+}
+
+main.equipe section.work-with-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+main.equipe section.work-with-us h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #16477F;
+}
+
+main.equipe section.work-with-us button {
+  width: 15%;
 }
 
 a, p, h1, h2, h3, h4, h5, h6, li, input, select, textarea, span {
